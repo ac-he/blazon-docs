@@ -1,5 +1,68 @@
+body {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 240px;
+    padding-bottom: 0px;
+    font-size: 14px;
+    background-color: #161616
+}
+
+#page-content {
+    background-color: tan;
+    padding: 30px;
+}
 
 h1 {
-    font-family: "deutsch_gothicnormal";
-    color: black;
+    font-family: "deutsch_gothicnormal", 'Times New Roman', Times, serif;
+    color: #161616;
+    font-size: 100px;
+}
+
+nav {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+    background-color: tan;
+    float: left;
+}
+
+nav .nav-content{
+    height: 100%;
+    display: flex;
+}
+
+nav #nav-upper .nav-content {
+    justify-content: space-between;
+    margin: 15px;
+}
+
+nav #nav-lower .nav-content {
+    justify-content: space-around;
+    background-color: #a27f66;
+    font-family: "deutsch_gothicnormal", 'Times New Roman', Times, serif;
+    font-size: 24px;
+    padding: 15px;
+}
+
+nav #site-title-logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav #site-logo {
+    padding-right: 15px;
+}
+
+h1 a {
+    color: #161616;
+    text-decoration: none;
+}
+
+nav #nav-lower .nav-content a {
+    color: #161616;
+    text-decoration: none;
 }
