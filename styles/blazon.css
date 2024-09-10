@@ -12,6 +12,26 @@ body {
     padding: 30px;
 }
 
+#breadcrumb-container {
+    background-color: #a27f66;
+    padding: 10px;
+}
+
+#breadcrumb-container h2 {
+    font-family: "deutsch_gothicnormal", 'Times New Roman', Times, serif;
+    color: #161616;
+    font-size: 48px;
+}
+
+#breadcrumb-container #breadcrumbs {
+    padding-bottom: 5px;
+    color: tan;
+}
+
+#breadcrumb-container #breadcrumbs a{
+    color: tan;
+}
+
 h1 {
     font-family: "deutsch_gothicnormal", 'Times New Roman', Times, serif;
     color: #161616;
@@ -44,7 +64,7 @@ nav #nav-lower .nav-content {
     justify-content: space-around;
     background-color: #a27f66;
     font-family: "deutsch_gothicnormal", 'Times New Roman', Times, serif;
-    font-size: 24px;
+    font-size: 20px;
     padding: 15px;
 }
 
