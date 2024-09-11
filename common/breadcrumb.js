@@ -18,7 +18,6 @@ if(pathSubstring[pathSubstring.length - 1] == '/') {
 
 // get breadcrumbs
 while (pathSubstring.includes("/")){
-    console.log(pathSubstring);
     let cd = await fetch("/blazon-docs" + pathSubstring)
     .then((res) => res.text())
     .then((text) => {
@@ -33,7 +32,7 @@ crumbs = [{'title': "Home", "path": "/blazon-docs/"}, ...crumbs];
 
 var html = "<div id='breadcrumbs'><p>";
 for(var i = 0; i < crumbs.length - 1; i++){ // DON'T SUBTRACT 1 HERE TO INCLUDE CUR PAGE IN BREADCRUMB
-    html += `<a href='${crumbs[i].path}'>${crumbs[i].title}</a>`;
+    html += `<a href='/blazon-docs${crumbs[i].path}'>${crumbs[i].title}</a>`;
     if((i) != (crumbs.length - 1)){ // DON'T SUBTRACT 1 HERE TO INCLUDE CUR PAGE IN BREADCRUMB
         html += " ⮚ ";
     }
