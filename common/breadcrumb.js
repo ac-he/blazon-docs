@@ -18,6 +18,7 @@ if(pathSubstring[pathSubstring.length - 1] == '/') {
 
 // get breadcrumbs
 while (pathSubstring.includes("/")){
+    console.log("/blazon-docs" + pathSubstring)
     let cd = await fetch("/blazon-docs" + pathSubstring)
     .then((res) => res.text())
     .then((text) => {
