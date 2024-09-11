@@ -28,7 +28,7 @@ while (pathSubstring.includes("/")){
     crumbs = [cd, ...crumbs];
     pathSubstring = pathSubstring.substring(0, pathSubstring.lastIndexOf("/") )
 };
-crumbs = [{'title': "Home", "path": "/"}, ...crumbs];
+crumbs = [{'title': "Home", "path": "/blazon-docs/"}, ...crumbs];
 
 var html = "<div id='breadcrumbs'><p>";
 for(var i = 0; i < crumbs.length - 1; i++){ // DON'T SUBTRACT 1 HERE TO INCLUDE CUR PAGE IN BREADCRUMB
