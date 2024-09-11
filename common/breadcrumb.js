@@ -21,7 +21,7 @@ if(pathSubstring[pathSubstring.length - 1] == '/') {
 }
 
 // get breadcrumbs
-while (pathSubstring.includes("/")){
+while (!pathSubstring.endsWith("/blazon-docs")){
     console.log(pathSubstring)
     let cd = await fetch(pathSubstring)
     .then((res) => res.text())
