@@ -8,12 +8,8 @@ let prettyTitle = oldelem.getAttribute("data-pretty-title")
 
 let crumbs = [];
 let uri =  document.documentURI
-console.log("uri")
-console.log(uri)
 let pathSubstring = uri.substring(uri.lastIndexOf("//") + 2);
 pathSubstring = pathSubstring.substring(pathSubstring.indexOf("/") );
-console.log("initial ps")
-console.log(pathSubstring)
 
 // trim trailing '/'
 if(pathSubstring[pathSubstring.length - 1] == '/') {
@@ -22,7 +18,6 @@ if(pathSubstring[pathSubstring.length - 1] == '/') {
 
 // get breadcrumbs
 while (!pathSubstring.endsWith("/blazon-docs")){
-    console.log(pathSubstring)
     let cd = await fetch(pathSubstring)
     .then((res) => res.text())
     .then((text) => {
