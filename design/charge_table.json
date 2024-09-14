@@ -190,14 +190,14 @@
         "ImgName": "escallop",
         "SpecifyTincture": false,
         "SupportQuantities": true,
-        "Value": 34
+        "Value": 46
     },
     {
         "DisplayName": "Phoenix",
         "ImgName": "phoenix",
         "SpecifyTincture": false,
         "SupportQuantities": true,
-        "Value": 46,
+        "Value": 63,
         "PluralName": "Phoenixes"
     },
     {
