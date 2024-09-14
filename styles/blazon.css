@@ -12,6 +12,10 @@ body {
     background-color: tan;
 }
 
+#page-content p {
+    padding-bottom: 10px;
+}
+
 #breadcrumb-container {
     background-color: #a27f66;
     padding: 10px;
@@ -36,6 +40,17 @@ h1 {
     font-family: "deutsch_gothicnormal", 'Times New Roman', Times, serif;
     color: #161616;
     font-size: 100px;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: "deutsch_gothicnormal", 'Times New Roman', Times, serif;   
+}
+
+h4 {
+    font-family: 18px;
+    font-weight: bold;
+    margin-top: 5px;
 }
 
 nav {
@@ -129,4 +144,81 @@ h1 a {
 
 .dropdown .dropbtn:hover {
     background-color:  rgb(174, 150, 119);
+}
+
+.blazon-info-card {
+    background-color: rgb(174, 150, 119);
+    padding: 10px;
+    max-width: 600px;
+}
+
+.blazon-info-card p {
+    font-style: italic;
+    padding: 3px;
+}
+
+.blazon-info-card img {
+    width: 120px;
+    height: 160px;
+    margin: 5px;
+}
+
+.blazon-info-card .example {
+    display: flex;
+}
+
+.blazon-info-card .example p {
+    padding: 15px;
+}
+
+.parameter {
+    margin-top: 32px;
+}
+
+#charge-table {
+    width: 100%;
+}
+
+#charge-table .row {
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#charge-table .row .name, .usage{
+    width: 20%;
+}
+
+#charge-table .row .options {
+    width: 30%;
+}
+
+#charge-table .row .value, .ex-img {
+    width: 15%;
+}
+
+#charge-table .header {
+    font-size: 24px;
+    font-family: "deutsch_gothicnormal", 'Times New Roman', Times, serif;   
+    border-bottom: 3px solid #161616 ;
+}
+
+#charge-table .row .ex-img img{
+    width: 60px;
+    height: 80px;
+}
+
+#charge-table .row .options span, .value span{
+    font-weight: bold;
+}
+
+#charge-table .row .options p, .value p{
+    padding-bottom: 5px;
+}
+
+#charge-table .row .usage p{
+    font-style: italic;
+    padding-bottom: 5px;
 }

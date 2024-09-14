@@ -1,0 +1,407 @@
+[
+    {
+        "DisplayName": "Gyronny",
+        "ImgName": "gyronny",
+        "SpecifyTincture": true,
+        "SupportQuantities": false,
+        "Value": -1,
+        "NoArticle": true
+    },
+    {
+        "DisplayName": "Lozengy",
+        "ImgName": "lozengy",
+        "SpecifyTincture": true,
+        "SupportQuantities": false,
+        "Value": -1,
+        "NoArticle": true
+    },
+    {
+        "DisplayName": "Roundel",
+        "ImgName": "roundel",
+        "SpecifyTincture": true,
+        "SupportQuantities": true,
+        "Value": 0
+    },
+    {
+        "DisplayName": "Gorge",
+        "ImgName": "gorge",
+        "SpecifyTincture": true,
+        "SupportQuantities": false,
+        "Value": 0
+    },
+    {
+        "DisplayName": "Label",
+        "ImgName": "label",
+        "SpecifyTincture": true,
+        "SupportQuantities": true,
+        "Value": 1,
+        "UsageOverride": [
+            "Gules, a label or.",
+            "Argent, a label of three points sable."
+        ]
+    },
+    {
+        "DisplayName": "Fret",
+        "ImgName": "fret",
+        "SpecifyTincture": true,
+        "SupportQuantities": false,
+        "Value": 1
+    },
+    {
+        "DisplayName": "Crescent",
+        "ImgName": "crescent",
+        "SpecifyTincture": true,
+        "SupportQuantities": true,
+        "Value": 2
+    },
+    {
+        "DisplayName": "Billet",
+        "ImgName": "billet",
+        "SpecifyTincture": true,
+        "SupportQuantities": true,
+        "Value": 2
+    },
+    {
+        "DisplayName": "Mullet",
+        "ImgName": "mullet",
+        "SpecifyTincture": true,
+        "SupportQuantities": true,
+        "Value": 3
+    },
+    {
+        "DisplayName": "Caltrap",
+        "ImgName": "caltrap",
+        "SpecifyTincture": true,
+        "SupportQuantities": true,
+        "Value": 3
+    },
+    {
+        "DisplayName": "Martlet",
+        "ImgName": "martlet",
+        "SpecifyTincture": true,
+        "SupportQuantities": true,
+        "Value": 4
+    },
+    {
+        "DisplayName": "Cross Pate",
+        "ImgName": "cross_pate",
+        "SpecifyTincture": true,
+        "SupportQuantities": true,
+        "Value": 4,
+        "PluralName": "Crosses Pate"
+    },
+    {
+        "DisplayName": "Annulet",
+        "ImgName": "annulet",
+        "SpecifyTincture": true,
+        "SupportQuantities": true,
+        "Value": 5
+    },
+    {
+        "DisplayName": "Fusil",
+        "ImgName": "fusil",
+        "SpecifyTincture": true,
+        "SupportQuantities": true,
+        "Value": 5
+    },
+    {
+        "DisplayName": "Fleur-de-Lis",
+        "ImgName": "fleur_de_lis",
+        "SpecifyTincture": true,
+        "SupportQuantities": true,
+        "Value": 6,
+        "PluralName": "Fleurs-de-Lis"
+    },
+    {
+        "DisplayName": "Lozenge",
+        "ImgName": "lozenge",
+        "SpecifyTincture": true,
+        "SupportQuantities": true,
+        "Value": 6
+    },
+    {
+        "DisplayName": "Rose",
+        "ImgName": "rose",
+        "SpecifyTincture": true,
+        "SupportQuantities": true,
+        "Value": 7
+    },
+    {
+        "DisplayName": "Mascle",
+        "ImgName": "mascle",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 7
+    },
+    {
+        "DisplayName": "Cross Moline",
+        "ImgName": "cross_moline",
+        "SpecifyTincture": true,
+        "SupportQuantities": true,
+        "Value": 8,
+        "PluralName": "Crosses Moline"
+    },
+    {
+        "DisplayName": "Rustre",
+        "ImgName": "rustre",
+        "SpecifyTincture": true,
+        "SupportQuantities": true,
+        "Value": 8
+    },
+    {
+        "DisplayName": "Octofoil",
+        "ImgName": "octofoil",
+        "SpecifyTincture": true,
+        "SupportQuantities": true,
+        "Value": 9
+    },
+    {
+        "DisplayName": "Escutcheon",
+        "ImgName": "escutcheon",
+        "SpecifyTincture": true,
+        "SupportQuantities": true,
+        "Value": 9
+    },
+    {
+        "DisplayName": "Lion Rampant",
+        "ImgName": "lion_rampant",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 10,
+        "PluralName" : "Lions Rampant"
+    },
+    {
+        "DisplayName": "Lion Passant",
+        "ImgName": "lion_passant",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 32,
+        "PluralName" : "Lions Passant"
+    },
+    {
+        "DisplayName": "Crown",
+        "ImgName": "crown",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 33
+    },
+    {
+        "DisplayName": "Scallop",
+        "ImgName": "escallop",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 34
+    },
+    {
+        "DisplayName": "Phoenix",
+        "ImgName": "phoenix",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 46,
+        "PluralName": "Phoenixes"
+    },
+    {
+        "DisplayName": "Anchor",
+        "ImgName": "anchor",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 97
+    },
+    {
+        "DisplayName": "Bee",
+        "ImgName": "bee",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 98
+    },
+    {
+        "DisplayName": "Castle",
+        "ImgName": "castle",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 99
+    },
+    {
+        "DisplayName": "Dragon",
+        "ImgName": "dragon",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 100
+    },
+    {
+        "DisplayName": "Eagle",
+        "ImgName": "eagle",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 101
+    },
+    {
+        "DisplayName": "Dolphin",
+        "ImgName": "dolphin",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 102
+    },
+    {
+        "DisplayName": "Griffin",
+        "ImgName": "griffin",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 103
+    },
+    {
+        "DisplayName": "Harp",
+        "ImgName": "harp",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 104
+    },
+    {
+        "DisplayName": "Comet",
+        "ImgName": "comet",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 105
+    },
+    {
+        "DisplayName": "Clarion",
+        "ImgName": "clarion",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 106
+    },
+    {
+        "DisplayName": "Keys Saltirewise",
+        "ImgName": "keys",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 107,
+        "PluralName": "Sets of Keys Saltirewise",
+        "NoArticle": true
+    },
+    {
+        "DisplayName": "Lamp",
+        "ImgName": "lamp",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 108
+    },
+    {
+        "DisplayName": "Moon in her Plenitude",
+        "ImgName": "moon",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 109,
+        "PluralName": "Moons in their plenitude"
+    },
+    {
+        "DisplayName": "Sun in his Splendor",
+        "ImgName": "sun",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 110,
+        "PluralName": "Suns in their splendor"
+    },
+    {
+        "DisplayName": "Owl",
+        "ImgName": "owl",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 111
+    },
+    {
+        "DisplayName": "Portcullis",
+        "ImgName": "portcullis",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 112,
+        "PluralName": "Portcullises"
+    },
+    {
+        "DisplayName": "Quatrefoil",
+        "ImgName": "quatrefoil",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 113
+    },
+    {
+        "DisplayName": "Raven",
+        "ImgName": "raven",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 114
+    },
+    {
+        "DisplayName": "Ship",
+        "ImgName": "ship",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 115
+    },
+    {
+        "DisplayName": "Thistle",
+        "ImgName": "thistle",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 116
+    },
+    {
+        "DisplayName": "Unicorn",
+        "ImgName": "unicorn",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 117
+    },
+    {
+        "DisplayName": "Wheel",
+        "ImgName": "wheel",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 118
+    },
+    {
+        "DisplayName": "Wolf",
+        "ImgName": "wolf",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 119,
+        "PluralName": "Wolves"
+    },
+    {
+        "DisplayName": "Sword",
+        "ImgName": "sword",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 120
+    },
+    {
+        "DisplayName": "Yale",
+        "ImgName": "yale",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 121
+    },
+    {
+        "DisplayName": "Zilant",
+        "ImgName": "zilant",
+        "SpecifyTincture": false,
+        "SupportQuantities": true,
+        "Value": 122
+    },
+    {
+        "DisplayName": "Chequy",
+        "ImgName": "chequy",
+        "SpecifyTincture": true,
+        "SupportQuantities": false,
+        "Value": 1000,
+        "NoArticle": true
+    },
+    {
+        "DisplayName": "Lozengy",
+        "ImgName": "lozengy",
+        "SpecifyTincture": true,
+        "SupportQuantities": false,
+        "Value": 1000,
+        "NoArticle": true
+    }
+]

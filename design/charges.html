@@ -14,7 +14,26 @@
     <script id="replace_with_breadcrumb" src="/blazon-docs/common/breadcrumb.js" async type="module" data-pretty-title="Charges"></script>
 
     <div id="page-content">
-        Add Page Content Here
+        <p>
+            Blazon uses charges to represent integer values.
+        </p>
+        <p>
+            While more values can be reached using <a href="/blazon-docs/logic/arithmetic.html">arithmetic operations</a>, the charges 
+            listed here act as built-in values to use as a starting point. They can also be printed out for their character value. In 
+            addition to charges that represent useful integer values, there are charges that have integer values cooresponding to important 
+            characters. There is even a way to specify an 8-bit integer in binary, but this is discouraged as it takes away the fun and 
+            won't look as nice.
+        </p>
+        <p>
+            Some charges require you to specify a <a href="/blazon-docs/design/tinctures.html">tincture</a> while others will 
+            auto-select a tincture. Any tinctures you specify must comply with the rule of tincture! The charge tincture will not 
+            impact the value.
+        </p>
+        <p>
+            If a charge supports quantities 1-3, this means that up to three of them may be included. Including two will square the 
+            value and including three will cube the value. See the usage column of the chart below for how to specify a plural for each charge.
+        </p>
+        <script id="replace_with_charge_table" src="/blazon-docs/design/charge_table.js" async type="module"></script>
     </div>
 </body>
 </html>
