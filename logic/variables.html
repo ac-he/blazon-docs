@@ -14,7 +14,52 @@
     <script id="replace_with_breadcrumb" src="/blazon-docs/common/breadcrumb.js" async type="module" data-pretty-title="Variables"></script>
 
     <div id="page-content">
-        Add Page Content Here
+        <div class="blazon-info-card">
+            <h3>Assign a Numerical Value</h3>
+            <p>Per pale; [tincture 1] and [tincture 2]; first [charge 1], second [charge 2].</p>
+            or
+            <p>Per pale; I. [tincture 1] [charge 1], II. [tincture 2] [charge 2].</p>
+            <h4>Example</h4>
+            <div class="example">
+                <img src="/blazon-docs/assets/assign_vars/example1.png">
+                <div>
+                    <p>Per pale; I. sable, three mullets or, II. or, chequy gules.</p>
+                    <p>Per pale sable and or; first three mullets or, second chequy gules.</p>
+                    <p style="font-style:normal">Save the value 1000 to Variable27.</p>
+                </div>
+            </div>
+            <h4>Tincture 1</h4>
+            Has no impact on execution. Consider taking this opportunity to make an aesthetic decision.
+            <h4>Charge 1</h4>
+            The integer-value of the VARIABLE being stored to.
+            <h4>Tincture 2</h4>
+            Has no impact on execution. Consider taking this opportunity to make an aesthetic decision.
+            <h4>Charge 2</h4>
+            The VALUE you are storing to the variable. 
+        </div>
+        <div class="blazon-info-card">
+            <h3>Assign Value From Another Variable</h3>
+            <p>Per fess [tincture 1] and [tincture 2]; in chief [charge 1], in base [charge 2].</p>
+            or
+            <p>Per fess; I. [tincture 1] [charge 1], II. [tincture 2] [charge 2].</p>
+            <h4>Example</h4>
+            <div class="example">
+                <img src="/blazon-docs/assets/assign_vars/example2.png">
+                <div>
+                    <p>Per fess azure and vert, in chief a sun in his splendor, in base two castles.</p>
+                    <p>Per fess; I. azure, a sun in his splendor, II. vert, two castles.</p>
+                    <p style="font-style:normal">Save the value from Variable8901 into Variable110.</p>
+                </div>
+            </div>
+            <h4>Tincture 1</h4>
+            Has no impact on execution. Consider taking this opportunity to make an aesthetic decision.
+            <h4>Charge 1</h4>
+            The integer-value of the VARIABLE being STORED TO.
+            <h4>Tincture 2</h4>
+            Has no impact on execution. Consider taking this opportunity to make an aesthetic decision.
+            <h4>Charge 2</h4>
+            The integer-value of the VARIABLE being STORED FROM.
+        </div>
     </div>
 </body>
 </html>

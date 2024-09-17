@@ -14,7 +14,74 @@
     <script id="replace_with_breadcrumb" src="/blazon-docs/common/breadcrumb.js" async type="module" data-pretty-title="Arithmetic Operations"></script>
 
     <div id="page-content">
-        Add Page Content Here
+        <div class="blazon-info-card">
+            <h3>Do Arithmetic With Two Variables</h3>
+            <p>Per pall [tincture 1], [tincture 2] and [tincture 3]; in chief [charge 1], in base [charge 2] at dexter 
+                and [charge 3] at sinister.</p>
+            or
+            <p>Per pall [tincture 1], [tincture 2] and [tincture 2]; in base [charge 2] at dexter 
+                and [charge 3] at sinister.</p>
+            <h4>Example 1</h4>
+            <div class="example">
+                <img src="/blazon-docs/assets/arithmetic/example1.png">
+                <div>
+                    <p>Per pall argent, sable, and azure; in chief an anchor, in base a scallop at dexter and two ships at sinister.</p>
+                    <p style="font-style:normal">Add Variable13225 to Variable46.</p>
+                </div>
+            </div>
+            <h4>Example 2</h4>
+            <div class="example">
+                <img src="/blazon-docs/assets/arithmetic/example2.png">
+                <div>
+                    <p>Per pall argent, sable, and azure; in base a scallop at dexter and two ships at sinister.</p>
+                    <p style="font-style:normal">Add Variable13225 to Variable46.</p>
+                </div>
+            </div>
+            <h4>Tincture 1</h4>
+            Determines the arithmetic operation to be carried out. Results will be immediately rounded down to an integer if not exact.
+            Negative values are allowed. It should go without saying that if you try to divide by zero it won't work out for you.
+            <div class="mini-table">
+                <div class="mini-table-row with-divider">
+                    <div class="op">[charge2] + [charge3]</div>
+                    <div class="tincture">Argent</div>
+                </div>
+                <div class="mini-table-row with-divider">
+                    <div class="op">[charge2] - [charge3]</div>
+                    <div class="tincture">Or</div>
+                </div>
+                <div class="mini-table-row with-divider">
+                    <div class="op">[charge2] * [charge3]</div>
+                    <div class="tincture">Sable</div>
+                </div>
+                <div class="mini-table-row with-divider">
+                    <div class="op">[charge2] / [charge3]</div>
+                    <div class="tincture">Gules</div>
+                </div>
+                <div class="mini-table-row with-divider">
+                    <div class="op">[charge2] % [charge3]</div>
+                    <div class="tincture">Purpure</div>
+                </div>
+                <div class="mini-table-row with-divider">
+                    <div class="op">[charge2] ^ [charge3]</div>
+                    <div class="tincture">Azure</div>
+                </div>
+                <div class="mini-table-row">
+                    <div class="op">[charge3]th root of [charge2]</div>
+                    <div class="tincture">Vert</div>
+                </div>
+            </div>
+            <h4>Charge 1 [Optional]</h4>
+            Has no impact on execution. Consider taking this opportunity to make an aesthetic decision.
+            <h4>Tincture 2</h4>
+            Has no impact on execution. Consider taking this opportunity to make an aesthetic decision.
+            <h4>Charge 2</h4>
+            The integer-value of the FIRST VARIABLE. The result of the operation will be stored here.
+            <h4>Tincture 3</h4>
+            Has no impact on execution. Consider taking this opportunity to make an aesthetic decision.
+            <h4>Charge 3</h4>
+            The integer-value of the SECOND VARIABLE. This value will be unchanged by the operation. Any numerical values must be 
+            <a href="/blazon-docs/logic/variables.html">stored as a variable</a> before being used.
+        </div>
     </div>
 </body>
 </html>

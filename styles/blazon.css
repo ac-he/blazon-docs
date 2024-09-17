@@ -150,6 +150,7 @@ h1 a {
     background-color: rgb(174, 150, 119);
     padding: 10px;
     max-width: 600px;
+    margin-bottom: 20px;
 }
 
 .blazon-info-card p {
@@ -258,4 +259,61 @@ h1 a {
 #tincture-table img{
     width: 60px;
     height: 80px;
+}
+
+#dof-menu .dof-row {
+    display: flex;
+}
+
+#dof-menu .dof-card {
+    background-color: rgb(174, 150, 119);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    width: 33%;
+}
+
+#dof-menu .dof-card div {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+#dof-menu a:link, a:visited{
+    text-decoration: none;
+    color:#161616;
+}
+
+#dof-menu img {
+    width: 60px;
+    height: 80px;
+}
+
+.mini-table {
+    margin: 10px;
+}
+
+.mini-table-row {
+    display: flex;
+    width: fit-content;
+}
+
+.mini-table-row.with-divider {
+    border-bottom: 1px solid #161616;
+}
+
+.mini-table .op, .tincture {
+    padding: 3px;
+}
+
+.mini-table .op {
+    width: 180px;
+    text-align: right;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #161616;
+}
+
+.mini-table .tincture {
+    width: 80px;
 }
