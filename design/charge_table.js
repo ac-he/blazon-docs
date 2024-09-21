@@ -72,7 +72,9 @@ newelem.innerHTML += `<div class="row">
                 </div>
                 <div class="name">Quarterly of Eight</div>
                 <div class="options">
-                    <p><span>Specify Charge Tincture: </span>Specify 8 tinctures, representing an 8-bit positive integer. Metals = 1, Colors = 2.</p>
+                    <p><span>Specify Charge Tincture: </span>Specify 8 tinctures, representing an 8-bit positive integer. 
+                        Metals = 1, Colors = 2. The field wil be completely covered and the specified field tincture will be
+                        irrelevant from a visual standpoint.</p>
                     <p><span>Supported Quantities: </span>1</p>
                 </div>
                 <div class="value">
@@ -80,7 +82,7 @@ newelem.innerHTML += `<div class="row">
                     <p><span>Character: </span>Many possible</p>
                 </div>
                 <div class="usage">
-                    <p>Quarterly of eight: sable, or, gules, sable, or, gules, sable, or.</p>
+                    <p>Gules, quarterly of eight: sable, or, gules, sable, or, gules, sable, or.</p>
                 </div>
             </div>`
 
