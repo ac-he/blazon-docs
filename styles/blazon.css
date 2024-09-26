@@ -44,7 +44,8 @@ h1 {
 
 h3 {
     font-size: 24px;
-    font-family: "deutsch_gothicnormal", 'Times New Roman', Times, serif;   
+    font-family: "deutsch_gothicnormal", 'Times New Roman', Times, serif;
+    color: #161616;   
 }
 
 h4 {
@@ -317,3 +318,16 @@ h1 a {
 .mini-table .tincture {
     width: 80px;
 }
+
+.next-step-button {
+    background-color: #7d6452;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px;
+}
+
+.next-step-button-wrapper a:link {
+    text-decoration: none;
+    color:#161616;
+}
+
