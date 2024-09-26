@@ -1,10 +1,10 @@
 body {
-    padding-left: 100px;
-    padding-right: 100px;
     padding-top: 250px;
     padding-bottom: 0px;
     font-size: 14px;
-    background-color: #161616
+    background-color: #161616;
+    max-width: 1000px;
+    margin: auto;
 }
 
 #page-content {
@@ -150,7 +150,6 @@ h1 a {
 .blazon-info-card {
     background-color: rgb(174, 150, 119);
     padding: 10px;
-    max-width: 600px;
     margin-bottom: 20px;
 }
 
