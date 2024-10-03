@@ -263,6 +263,7 @@ h1 a {
 
 #dof-menu .dof-row {
     display: flex;
+    justify-content: center;
 }
 
 #dof-menu .dof-card {

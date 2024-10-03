@@ -8,24 +8,29 @@
     <link rel="stylesheet" href="/blazon-docs/styles/reset.css">
     <link rel="stylesheet" href="/blazon-docs/styles/blazon.css">
     <link rel="shortcut icon" href="/blazon-docs/favicon.ico" />
-    <link rel="stylesheet" href="/blazon-docs/styles/web-fonts/deutschgothic_normal_macroman/stylesheet.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="/blazon-docs/styles/web-fonts/deutschgothic_normal_macroman/stylesheet.css"
+        type="text/css" charset="utf-8" />
 </head>
+
 <body>
     <script id="replace_with_navbar" src="/blazon-docs/common/nav.js"></script>
-    <script id="replace_with_breadcrumb" src="/blazon-docs/common/breadcrumb.js" async type="module" data-pretty-title="Arithmetic Operations"></script>
+    <script id="replace_with_breadcrumb" src="/blazon-docs/common/breadcrumb.js" async type="module"
+        data-pretty-title="Arithmetic Operations"></script>
 
     <div id="page-content">
         <div class="blazon-info-card">
-            <h3>Do Arithmetic With Two Variables</h3>
-            <p>Per pall [tincture 1], [tincture 2] and [tincture 3]; in chief [charge 1], to dexter [charge 2],  to sinister [charge 3].</p>
+            <h3>Arithmetic with a Variable and a Number </h3>
+            <p>Per pall [tincture 1], [tincture 2] and [tincture 3]; in chief [charge 1], to dexter [charge 2], to
+                sinister [charge 3].</p>
             or
-            <p>Per pall [tincture 1], [tincture 2] and [tincture 2]; to dexter [charge 2],  to sinister [charge 3].</p>
+            <p>Per pall [tincture 1], [tincture 2] and [tincture 2]; to dexter [charge 2], to sinister [charge 3].</p>
             <h4>Example 1</h4>
             <div class="example">
                 <img src="/blazon-docs/assets/arithmetic/example1.png">
                 <div>
-                    <p>Per pall argent, sable, and azure; in chief an anchor, to dexter a scallop, to sinister two ships.</p>
-                    <p style="font-style:normal">Add Variable13225 to Variable46.</p>
+                    <p>Per pall argent, sable, and azure; in chief an anchor, to dexter a scallop, to sinister two
+                        ships.</p>
+                    <p style="font-style:normal">Add the number 13225 to Variable46.</p>
                 </div>
             </div>
             <h4>Example 2</h4>
@@ -33,12 +38,14 @@
                 <img src="/blazon-docs/assets/arithmetic/example2.png">
                 <div>
                     <p>Per pall argent, sable, and azure; to dexter a scallop, to sinister two ships.</p>
-                    <p style="font-style:normal">Add Variable13225 to Variable46.</p>
+                    <p style="font-style:normal">Add the number 13225 to Variable46.</p>
                 </div>
             </div>
             <h4>Tincture 1</h4>
-            Determines the arithmetic operation to be carried out. Results will be immediately rounded down to an integer if not exact.
-            Negative values are allowed. It should go without saying that if you try to divide by zero it won't work out for you.
+            Determines the arithmetic operation to be carried out. Results will be immediately rounded down to an
+            integer if not exact.
+            Negative values are allowed. It should go without saying that if you try to divide by zero it won't work out
+            for you.
             <div class="mini-table">
                 <div class="mini-table-row with-divider">
                     <div class="op">[charge2] + [charge3]</div>
@@ -74,12 +81,83 @@
             <h4>Tincture 2</h4>
             Has no impact on execution. Consider taking this opportunity to make an aesthetic decision.
             <h4>Charge 2</h4>
-            The integer-value of the FIRST VARIABLE. The result of the operation will be stored here.
+            The integer-value of the VARIABLE. The result of the operation will be stored here, overwriting its
+            original value.
             <h4>Tincture 3</h4>
             Has no impact on execution. Consider taking this opportunity to make an aesthetic decision.
             <h4>Charge 3</h4>
-            The integer-value of the SECOND VARIABLE. This value will be unchanged by the operation. Any numerical values must be 
-            <a href="/blazon-docs/logic/variables.html">stored as a variable</a> before being used.
+            The NUMBER.
+        </div>
+        <div class="blazon-info-card">
+            <h3>Arithmetic with Two Variables </h3>
+            <p>Per fess [tincture 1] and [tincture 2]; in chief [charge 1], in base [charge 2]; in the center an
+                escutcheon [tincture 3].</p>
+            or
+            <p>Per fess [tincture 1] and [tincture 2]; in chief [charge 1], in base [charge 2]; in the center on an
+                escutcheon [tincture 3] a [charge3].</p>
+            <h4>Example 1</h4>
+            <div class="example">
+                <img src="/blazon-docs/assets/arithmetic/example3.png">
+                <div>
+                    <p>Per fess argent and or; in chief two crowns, in base three crowns; in the center on an escutcheon 
+                        gules a cross moline or.</p>
+                    <p style="font-style:normal">Divide Variable1098 by Variable35937.</p>
+                </div>
+            </div>
+            <h4>Example 2</h4>
+            <div class="example">
+                <img src="/blazon-docs/assets/arithmetic/example4.png">
+                <div>
+                    <p>Per fess argent and or; in chief two crowns, in base three crowns; in the center an escutcheon gules.</p>
+                    <p style="font-style:normal">Divide Variable1098 by Variable35937.</p>
+                </div>
+            </div>
+            <h4>Tincture 1</h4>
+            Has no impact on execution. Consider taking this opportunity to make an aesthetic decision.
+            <h4>Charge 1</h4>
+            The integer-value of the FIRST VARIABLE. The result of the operation will be stored here, overwriting its
+            original value.
+            <h4>Tincture 2</h4>
+            Has no impact on execution. Consider taking this opportunity to make an aesthetic decision.
+            <h4>Charge 2</h4>
+            The integer-value of the SECOND VARIABLE. This value will not be altered by the operation.
+            <h4>Tincture 3</h4>
+            Determines the arithmetic operation to be carried out. Results will be immediately rounded down to an
+            integer if not exact.
+            Negative values are allowed. It should go without saying that if you try to divide by zero it won't work out
+            for you.
+            <div class="mini-table">
+                <div class="mini-table-row with-divider">
+                    <div class="op">[charge2] + [charge3]</div>
+                    <div class="tincture">Argent</div>
+                </div>
+                <div class="mini-table-row with-divider">
+                    <div class="op">[charge2] - [charge3]</div>
+                    <div class="tincture">Or</div>
+                </div>
+                <div class="mini-table-row with-divider">
+                    <div class="op">[charge2] * [charge3]</div>
+                    <div class="tincture">Sable</div>
+                </div>
+                <div class="mini-table-row with-divider">
+                    <div class="op">[charge2] / [charge3]</div>
+                    <div class="tincture">Gules</div>
+                </div>
+                <div class="mini-table-row with-divider">
+                    <div class="op">[charge2] % [charge3]</div>
+                    <div class="tincture">Purpure</div>
+                </div>
+                <div class="mini-table-row with-divider">
+                    <div class="op">[charge2] ^ [charge3]</div>
+                    <div class="tincture">Azure</div>
+                </div>
+                <div class="mini-table-row">
+                    <div class="op">[charge3]th root of [charge2]</div>
+                    <div class="tincture">Vert</div>
+                </div>
+            </div>
+            <h4>Charge 3 [Optional]</h4>
+            Has no impact on execution. Consider taking this opportunity to make an aesthetic decision.
         </div>
     </div>
 </body>
