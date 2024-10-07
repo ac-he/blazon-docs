@@ -41,7 +41,7 @@ for(var i = 0; i < numRows; i++) {
     }
     
     
-    newelem.innerHTML += `<div class="row">
+    newelem.innerHTML += `<div id="${rowData.ImgName}" class="row">
                 <div class="ex-img">
                     <img src="/blazon-docs/assets/charge_chart/${rowData.ImgName}.png">
                 </div>
@@ -66,7 +66,7 @@ for(var i = 0; i < numRows; i++) {
             </div>`
 }
 
-newelem.innerHTML += `<div class="row">
+newelem.innerHTML += `<div id="quarterly_of_eight"  class="row">
                 <div class="ex-img">
                     <img src="/blazon-docs/assets/charge_chart/quarterly_of_eight.png">
                 </div>
@@ -88,3 +88,9 @@ newelem.innerHTML += `<div class="row">
 
 
 oldelem.parentNode.replaceChild(newelem,oldelem);
+
+if(window.location.href.includes("#")){
+    // a very hacky soft reload so that the targeted div will get the right css
+    // send me to computer jail for this one
+    window.location.href = window.location.href
+}
