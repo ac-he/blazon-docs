@@ -382,3 +382,22 @@ h1 a {
     background-color: rgb(174, 150, 119);
     scroll-margin-top: 200px;
 }
+
+.image-side-by-side {
+    display: flex;
+    margin: 10px;
+}
+
+.image-side-by-side img {
+    width: 99px;
+    height: 132px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.image-side-by-side .coa-set {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

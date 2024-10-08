@@ -17,7 +17,6 @@ function getChargeValue(charge) {
 }
 
 for(var i = 0; i < 5; i++){
-    console.log(`script#charge-evaluation-script-${i}`)
     var oldelem = document.querySelector(`script#charge-evaluation-script-${i}`);
     
     if(oldelem == null){
@@ -34,12 +33,20 @@ for(var i = 0; i < 5; i++){
                     <div class="result">Result</div>
                 </div>`
     
-    let chargeList = []
-    for(var row = 0; row < 4; row++){
+    for(var row = 0; row < 5; row++){
         var curCharge = oldelem.getAttribute(`data-charge-${row}`)
         var curQuantity = oldelem.getAttribute(`data-quantity-${row}`)
 
-        if(curCharge != null && curQuantity != null){
+        if(curCharge === "Quarterly of Eight"){
+            newelem.innerHTML += `<div class="row">
+                    <div class="charge">
+                        <a href="/blazon-docs/design/charges#quarterly_of_eight" target="_blank">${curCharge}</a>
+                    </div>
+                    <div class="value">${curQuantity}</div>
+                    <div class="quantity">in binary</div>
+                    <div class="result">= ${curQuantity}</div>
+                </div>`
+        }else if(curCharge != null && curQuantity != null){
             var info = getChargeValue(curCharge);
             var curResult = Math.pow(info.curValue, Number(curQuantity));
 
@@ -53,7 +60,6 @@ for(var i = 0; i < 5; i++){
                 </div>`
         }
     }
-    console.log(chargeList)
     
     
     

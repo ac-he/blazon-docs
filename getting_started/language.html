@@ -8,17 +8,152 @@
     <link rel="stylesheet" href="/blazon-docs/styles/reset.css">
     <link rel="stylesheet" href="/blazon-docs/styles/blazon.css">
     <link rel="shortcut icon" href="/blazon-docs/favicon.ico" />
-    <link rel="stylesheet" href="/blazon-docs/styles/web-fonts/deutschgothic_normal_macroman/stylesheet.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="/blazon-docs/styles/web-fonts/deutschgothic_normal_macroman/stylesheet.css"
+        type="text/css" charset="utf-8" />
 </head>
+
 <body>
     <script id="replace_with_navbar" src="/blazon-docs/common/nav.js"></script>
-    <script id="replace_with_breadcrumb" src="/blazon-docs/common/breadcrumb.js" async type="module" data-pretty-title="How Does It Work?"></script>
+    <script id="replace_with_breadcrumb" src="/blazon-docs/common/breadcrumb.js" async type="module"
+        data-pretty-title="How Does It Work?"></script>
 
     <div id="page-content">
         <h3>Statements</h3>
-        <p>Information coming soon</p>
+        <div class="image-side-by-side">
+            <div>
+                <p>
+                    Every statement takes the form of the blazon for one coat of arms. Different types of statement are
+                    created by
+                    different <a href="/blazon-docs/logic">divisions of the field</a>, and the values and parameters of
+                    the statement
+                    correspond to each of the divisions present.
+                </p>
+                <p>
+                    To the right is an example statement. The division of <span style="font-style: italic;">Per fess; at
+                        center an escutcheon</span> represents an
+                    <a href="/blazon-docs/logic/arithmetic#two-variables" target="_blank">arithmetic operation involving
+                        two variables</a>.
+                    In this case, the variables are represented by the two crowns in chief and the three crowns in base,
+                    as detailed in the next section.
+                    The operation (in this case, division) is controlled by the color of the escutcheon.
+                </p>
+            </div>
+            <img src="/blazon-docs/assets/arithmetic/example3.png">
+        </div>
         <h3>Values</h3>
-        <p>Information coming soon</p>
+        <p>
+            All statement blazons contain one or more values. These are described in terms of their
+            <a href="/blazon-docs/design/tinctures" target="_blank">tincture</a> and their <a
+                href="/blazon-docs/design/charges" target="_blank">charges</a>.
+            Depending on the division in question, the value will be interpreted different ways. Some divisions, like
+            the escutcheon
+            in the example above, use tincture to specify which operation to use. Others, like the base and chief of the
+            example above,
+            use the type of charge and the number of charges to represent a particular number.
+        </p>
+        <h4>Finding the Value</h4>
+        <div class="image-side-by-side">
+            <img src="/blazon-docs/assets/charge_chart/lion_rampant.png">
+            <img src="/blazon-docs/assets/branching/example5.png">
+            <img src="/blazon-docs/assets/charge_chart/chequy.png">
+            <div>
+                <p>
+                    To the left are several examples of fields bearing charges. Each charge carries a certain numerical
+                    value.
+                    For some charges, this value can be squared or cubed by including the charge two or three times
+                    within the
+                    same division. (Note that charges such as <span style="font-style: italic;">chequy</span>, shown
+                    below,
+                    don't support this.)
+                </p>
+                <script id="charge-evaluation-script-0" src="/blazon-docs/logic/charge_calculation.js" async
+                    type="module" data-charge-0="Lion Rampant" data-quantity-0="1" data-charge-1="Fleur-de-Lis"
+                    data-quantity-1="3" data-charge-2="Chequy" data-quantity-2="1">
+                    </script>
+                <p>
+                    Thus, the values of these three fields are 10, 216, and 1000 respectively.
+                </p>
+            </div>
+        </div>
+        <h4>Variable, Branch Label, or Number?</h4>
+        <div class="image-side-by-side">
+            <div>
+                <p>
+                    In the Blazon Programming Language, all variable and branch names are integers in disguise.
+                </p>
+                <p>
+                    The values shown above, if used as variables, could be thought of as Variable10, Variable216, and
+                    Variable1000.
+                    In reality, a field without divisions represets a <a href="/blazon-docs/logic/branching#label"
+                        target="_blank">
+                        branch label</a>, so these would represent the starts of Branch10, Branch216, and Branch1000.
+                </p>
+                <p>
+                    It is important to note that the same value can be reached in a number of ways. For instance, there
+                    are five ways
+                    to describe the integer 9.
+                </p>
+                <script id="charge-evaluation-script-1" src="/blazon-docs/logic/charge_calculation.js" async
+                    type="module" data-charge-0="Mullet" data-quantity-0="3" data-charge-1="Caltrap" data-quantity-1="3"
+                    data-charge-2="Octofoil" data-quantity-2="1" data-charge-3="Escutcheon" data-quantity-3="1"
+                    data-charge-4="Quarterly of Eight" data-quantity-4="9">
+                    </script>
+                <p>
+                    These are all interchangable and will be treated the same by the interpreter. For example, if you
+                    assign one value
+                    to a variable represented by three mullets, assigning another value to a variable represented by an
+                    octofoil will
+                    overwrite the variable represented by three mullets. Consider making your code more "readable" by
+                    sticking to one
+                    representation, or vary it for aesthetic reasons!
+                </p>
+            </div>
+            <div>
+                <div class="coa-set">
+                    <img src="/blazon-docs/assets/variable_nine/example1.png">
+                    <img src="/blazon-docs/assets/variable_nine/example2.png">
+                </div>
+                <div class="coa-set">
+                    <img src="/blazon-docs/assets/variable_nine/example3.png">
+                    <img src="/blazon-docs/assets/variable_nine/example4.png">
+                    <img src="/blazon-docs/assets/variable_nine/example5.png">
+                </div>
+            </div>
+        </div>
+        <div class="image-side-by-side">
+            <p>
+                Whether a number is interpreted as a variable, branch label or numerical value depends on the
+                division of the field.
+                Output, Arithmetic, and Branching operations all have two possible divisions of the field: one for
+                variables, one for numerical values.
+            </p>
+        </div>
+        <div class="image-side-by-side">
+            <div>
+                <p>
+                    The division <a href="/blazon-docs/logic/output#variable" target="_blank">per bend</a> prints a
+                    variable.
+                    The statement shown to the right would print the value stored in Variable99 as a character.
+                </p>
+            </div>
+            <img src="/blazon-docs/assets/var_val/example1.png">
+            <div>
+                <p>
+                    The division <a href="/blazon-docs/logic/output#value" target="_blank">per bend sinister</a> prints
+                    a value.
+                    The statement shown to the right would print the value 99 as a character, which is 'c'.
+                </p>
+            </div>
+            <img src="/blazon-docs/assets/var_val/example2.png">
+            <div>
+                <script id="charge-evaluation-script-2" src="/blazon-docs/logic/charge_calculation.js" async
+                    type="module" data-charge-0="Castle" data-quantity-0="1">
+                    </script>
+            </div>
+        </div>
+        <h3>Syntax</h3>
+        <h4>General Patterns</h4>
+        <h4>Charges</h4>
         <div class="next-step-button-wrapper">
             <a href="/blazon-docs/getting_started/demos.html">
                 <div class="next-step-button">
@@ -28,4 +163,5 @@
         </div>
     </div>
 </body>
+
 </html>
