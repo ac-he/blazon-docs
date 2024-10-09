@@ -360,6 +360,7 @@ h1 a {
     padding: 5px;
     margin-left: 15px;
     width: fit-content;
+    color:#614f42;
 }
 
 .charge-evaluation-table .row {
@@ -368,6 +369,16 @@ h1 a {
 
 .charge-evaluation-table .row.header{
     font-weight: bold;
+}
+
+.charge-evaluation-table a:link, 
+.charge-evaluation-table a:visited {
+    text-decoration: none;
+    color:#614f42;
+}
+
+.charge-evaluation-table a:hover {
+    text-decoration: underline;
 }
 
 .charge-evaluation-table .row .charge{
