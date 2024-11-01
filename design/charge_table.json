@@ -36,7 +36,7 @@
         "SupportQuantities": true,
         "Value": 1,
         "UsageOverride": [
-            "Gules, a label or.",
+            "Gules, a label of one point or.",
             "Argent, a label of three points sable."
         ]
     },
@@ -95,7 +95,8 @@
         "ImgName": "annulet",
         "SpecifyTincture": true,
         "SupportQuantities": true,
-        "Value": 5
+        "Value": 5,
+        "An": true
     },
     {
         "DisplayName": "Fusil",
@@ -129,7 +130,7 @@
     {
         "DisplayName": "Mascle",
         "ImgName": "mascle",
-        "SpecifyTincture": false,
+        "SpecifyTincture": true,
         "SupportQuantities": true,
         "Value": 7
     },
@@ -153,14 +154,16 @@
         "ImgName": "octofoil",
         "SpecifyTincture": true,
         "SupportQuantities": true,
-        "Value": 9
+        "Value": 9,
+        "An": true
     },
     {
         "DisplayName": "Escutcheon",
         "ImgName": "escutcheon",
         "SpecifyTincture": true,
         "SupportQuantities": true,
-        "Value": 9
+        "Value": 9,
+        "An": true
     },
     {
         "DisplayName": "Lion Rampant",
@@ -205,7 +208,8 @@
         "ImgName": "anchor",
         "SpecifyTincture": false,
         "SupportQuantities": true,
-        "Value": 97
+        "Value": 97,
+        "An": true
     },
     {
         "DisplayName": "Bee",
@@ -233,7 +237,8 @@
         "ImgName": "eagle",
         "SpecifyTincture": false,
         "SupportQuantities": true,
-        "Value": 101
+        "Value": 101,
+        "An": true
     },
     {
         "DisplayName": "Dolphin",
@@ -271,7 +276,7 @@
         "Value": 106
     },
     {
-        "DisplayName": "Keys Saltirewise",
+        "DisplayName": "Set of Keys Saltirewise",
         "ImgName": "keys",
         "SpecifyTincture": false,
         "SupportQuantities": true,
@@ -307,7 +312,8 @@
         "ImgName": "owl",
         "SpecifyTincture": false,
         "SupportQuantities": true,
-        "Value": 111
+        "Value": 111,
+        "An": true
     },
     {
         "DisplayName": "Portcullis",
@@ -397,8 +403,8 @@
         "NoArticle": true
     },
     {
-        "DisplayName": "Lozengy",
-        "ImgName": "lozengy",
+        "DisplayName": "Fusily",
+        "ImgName": "fusily",
         "SpecifyTincture": true,
         "SupportQuantities": false,
         "Value": 1000,

@@ -39,6 +39,15 @@ for(var i = 0; i < numRows; i++) {
             charValue = String.fromCharCode(rowData.Value)
         }
     }
+
+    var article = "a "
+    if (rowData.NoArticle) {
+        article = "";
+    } 
+    else if (rowData.An) {
+        article = "an ";
+    }
+    
     
     
     newelem.innerHTML += `<div id="${rowData.ImgName}" class="row">
@@ -57,7 +66,7 @@ for(var i = 0; i < numRows; i++) {
                 <div class="usage">
                     ${
                         rowData.UsageOverride ? usageOverridesFormatted : 
-                        `<p>Gules, ${rowData.NoArticle ? "" : "a "}${rowData.DisplayName.toLowerCase()}${rowData.SpecifyTincture ? " or" : ""}.</p>
+                        `<p>Gules, ${article}${rowData.DisplayName.toLowerCase()}${rowData.SpecifyTincture ? " or" : ""}.</p>
                         ${rowData.SupportQuantities ?
                          `<p>Argent, three ${rowData.PluralName? rowData.PluralName.toLowerCase() : rowData.DisplayName.toLowerCase() + "s"}${rowData.SpecifyTincture ? " sable" : ""}.</p>`
                          : ""}`
