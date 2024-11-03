@@ -358,6 +358,8 @@ h1 a {
 .charge-evaluation-table {
     background-color: rgb(207, 187, 161);
     padding: 5px;
+    margin-top:5px;
+    margin-bottom:5px;
     margin-left: 15px;
     width: fit-content;
     color:#614f42;
@@ -411,4 +413,87 @@ h1 a {
     justify-content: center;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+#demo-cards {
+    display: flex;
+}
+
+#demo-cards .demo-card {
+    background-color: rgb(174, 150, 119);
+    padding: 10px;
+    margin: 15px;
+    width: 100%;
+    text-decoration: none;
+    color: #161616;
+}
+
+#demo-cards .demo-card img{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+
+.demo-table {
+    background-color: rgb(174, 150, 119);
+}
+
+.demo-header-row, .demo-row {
+    display: flex;
+}
+
+.demo-header-row {
+    font-size: 24px;
+    font-family: "deutsch_gothicnormal", 'Times New Roman', Times, serif;
+    color: #161616;  
+}
+
+.demo-column-index, .demo-column-statement, .demo-column-img, .demo-column-pseudocode, .demo-column-state, .demo-column-notes {
+    padding: 8px;
+}
+
+.demo-table .demo-column-index {
+    width: 3%;
+}
+
+.demo-table .demo-column-statement {
+    width: 25%;
+}
+
+.demo-table .demo-row .demo-column-statement {
+    font-style: italic;
+}
+
+.demo-table .demo-column-img {
+    width: 7%;
+}
+
+.demo-table .demo-column-img img {
+    width: 100%;
+}
+
+.demo-table .demo-column-pseudocode {
+    width: 40%;
+}
+
+.demo-table .demo-column-state {
+    width: 15%;
+}
+
+.demo-table .demo-column-notes {
+    width: 10%;
+}
+
+.sample-program-header {
+    display: flex;
+    justify-content: space-between
+}
+
+.sample-program-header img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.sample-program-header .program-info {
+    margin: 20px;
 }

@@ -1,0 +1,162 @@
+[
+    {
+        "statement": "Per chevron or and gules; in chief a griffin, in base three lozenges or.",
+        "pseudocode": "Generate a random integer 0-9 and store it to Variable103.",
+        "charges": [
+            {"charge": "Griffin"},
+            {"charge": "Lozenge", "quantity": 3}
+        ],
+        "state": "Variable103: ??"
+    },
+    {
+        "statement": "Per saltire argent, gules, gules, and or; in chief a rose gules, to dexter a griffin, to sinister an annulet or, in base chequy sable.",
+        "pseudocode": "If Variable103 is less than 5, go to Branch1000.",
+        "charges": [
+            {"charge": "Rose"},
+            {"charge": "Griffin"},
+            {"charge": "Annulet"},
+            {"charge": "Chequy"}
+        ],
+        "state": "May proceed to Branch1000 (statement #10)",
+        "notes": "If false, the start of \"Head\""
+    },
+    {
+        "statement": "Per pale purpure and or; to dexter a crown, to sinister a harp.",
+        "pseudocode": "Save the value 104 to Variable33.",
+        "charges": [
+            {"charge": "Crown"},
+            {"charge": "Harp"}
+        ],
+        "state": "Variable33: 104",
+        "notes": "Getting the value of lowercase 'h'"
+    },
+    {
+        "statement": "Per pall or, argent, and gules; in chief a gorge sable, to dexter a crown, to sinister a lion passant.",
+        "pseudocode": "Subtract 32 from Variable33.",
+        "charges": [
+            {"charge": "Griffin"},
+            {"charge": "Crown"},
+            {"charge": "Lion Passant"}
+        ],
+        "state": "Variable33: 72",
+        "notes": "Getting the value of uppercase 'H'"
+    },
+    {
+        "statement": "Per bend gules and argent; in chief two zilants, in base a crown.",
+        "pseudocode": "Output Variable33 as a character.",
+        "charges": [
+            {"charge": "Zilant", "quantity": 2},
+            {"charge": "Crown"}
+        ],
+        "notes": "Output 'H'"
+    },
+    {
+        "statement": "Per bend sinister sable and or; in base an eagle.",
+        "pseudocode": "Output 'e', the character value of 101.",
+        "charges": [
+            {"charge": "Eagle"}
+        ]
+    },
+    {
+        "statement": "Per bend sinister azure and argent; in chief three ships, in base an anchor.",
+        "pseudocode": "Output 'a', the character value of 97.",
+        "charges": [
+            {"charge": "Ship", "quantity": 3},
+            {"charge": "Anchor"}
+        ]
+    },
+    {
+        "statement": "Per bend sinister gules and purpure; in chief a castle, in base a dragon.",
+        "pseudocode": "Output 'd', the character value of 100.",
+        "charges": [
+            {"charge": "Castle"},
+            {"charge": "Dragon"}
+        ]
+    },
+    {
+        "statement": "Quarterly; I. sable, a set of keys saltirewise, II. vert, a griffin, III. vert, a griffin, IV. or, a quatrefoil.",
+        "pseudocode": "If Variable103 is equal to Variable103, go to Branch113.",
+        "charges": [
+            {"charge": "Set of Keys Saltirewise"},
+            {"charge": "Griffin"},
+            {"charge": "Quatrefoil"}
+        ],
+        "state": "Will always proceed to Branch113 (statement #17)"
+    },
+    {
+        "statement": "Argent, chequy vert.",
+        "pseudocode": "Begin Branch1000.",
+        "charges": [
+            {"charge": "Chequy"}
+        ], 
+        "notes": "The start of \"Tail\""
+    },
+    {
+        "statement": "Per pale purpure and or; to dexter a crown, to sinister a thistle.",
+        "pseudocode": "Save the value 116 to Variable33.",
+        "charges": [
+            {"charge": "Crown"},
+            {"charge": "Thistle"}
+        ],
+        "state": "Variable33: 116",
+        "notes": "Getting the value of lowercase 't'"
+    },
+    {
+        "statement": "Per pall or, argent, and gules; in chief a gorge sable, to dexter a crown, to sinister a lion passant.",
+        "pseudocode": "Subtract 32 from Variable33.",
+        "charges": [
+            {"charge": "Gorge"},
+            {"charge": "Crown"},
+            {"charge": "Lion Passant"}
+        ],
+        "state": "Variable33: 84",
+        "notes": "Getting the value of uppercase 'T'"
+    },
+    {
+        "statement": "Per bend gules and argent; in chief two zilants, in base a crown.",
+        "pseudocode": "Output Variable33 as a character.",
+        "charges": [
+            {"charge": "Zilant", "quantity": 2},
+            {"charge": "Crown"}
+        ],
+        "notes": "Output 'T'"
+    },
+    {
+        "statement": "Per bend sinister azure and argent; in chief three ships, in base an anchor.",
+        "pseudocode": "Output 'a', the character value of 97.",
+        "charges": [
+            {"charge": "Ship", "quantity": 3},
+            {"charge": "Anchor"}
+        ]
+    },
+    {
+        "statement": "Per bend sinister sable and sable; in chief a moon in her plenitude, in base a comet.",
+        "pseudocode": "Output 'i', the character value of 105.",
+        "charges": [
+            {"charge": "Moon in her Plenitude"},
+            {"charge": "Comet"}
+        ]
+    },
+    {
+        "statement": "Per bend sinister sable and gules; in base a lamp.",
+        "pseudocode": "Output 'l', the character value of 108.",
+        "charges": [
+            {"charge": "Lamp"}
+        ]
+    },
+    {
+        "statement": "Purpure, a quatrefoil.",
+        "pseudocode": "Begin Branch113.",
+        "charges": [
+            {"charge": "Quatrefoil"}
+        ],
+        "notes": "Both branches print 's' at the end"
+    },
+    {
+        "statement": "Per bend sinister gules and sable; in chief a ship, in base a ship.",
+        "pseudocode": "Output 's', the character value of 115.",
+        "charges": [
+            {"charge": "Ship"}
+        ]
+    }
+]
