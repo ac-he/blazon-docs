@@ -497,3 +497,7 @@ h1 a {
 .sample-program-header .program-info {
     margin: 20px;
 }
+
+strong {
+    font-weight: bold;
+}

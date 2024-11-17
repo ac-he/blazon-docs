@@ -1,0 +1,164 @@
+[
+    {
+        "statement": "Per pale or and argent; to dexter a label of three points gules, to sinister two crosses moline gules.",
+        "pseudocode": "Save the value 64 to Variable1.",
+        "charges": [
+            {"charge": "Label", "quantity": 3},
+            {"charge": "Cross Moline", "quantity": 2}
+        ], 
+        "state": "Variable1: 64"
+    },
+    {
+        "statement": "Per pall argent, sable, and gules; in chief a castle, to dexter a label of one point argent, to sinister a label of one point argent.",
+        "pseudocode": "Add 1 to Variable1.",
+        "charges": [
+            {"charge": "Castle"},
+            {"charge": "Label"}
+        ], 
+        "state": "Variable1: 65"
+    },
+    {
+        "statement": "Per bend sable and vert; in chief three thistles, in base a fret or.",
+        "pseudocode": "Output Variable1 as a character.",
+        "charges": [
+            {"charge": "Thistle", "quantity": 3},
+            {"charge": "Fret"}
+        ], 
+        "notes": "Outputs the value 65 as a character, which is 'A'"
+    },
+    {
+        "statement": "Per bend sinister gules and or; in base a phoenix.",
+        "pseudocode": "Output '?', the character value of 63.",
+        "charges": [
+            {"charge": "Phoenix"}
+        ]
+    },
+    {
+        "statement": "Per chevron sable and or; in chief an anchor, in base an anchor.",
+        "pseudocode": "Read in a character and store its value to Variable97.",
+        "charges": [
+            {"charge": "Anchor"}
+        ],
+        "state": "Variable97: 3",
+        "notes": "For the sake of this example, assume the user inputs the number 3."
+    },
+    {
+        "statement": "Per pall argent, purpure, and or; in chief a sun in his splendor, to dexter a label of two points or, to sinister a label of two points purpure.",
+        "pseudocode": "Add 1 to Variable1.",
+        "charges": [
+            {"charge": "Sun in his Splendor"},
+            {"charge": "Label", "quantity": 2}
+        ], 
+        "state": "Variable1: 66"
+    },
+    {
+        "statement": "Per bend vert and sable; in chief three annulets argent, in base a fret argent.",
+        "pseudocode": "Output Variable1 as a character.",
+        "charges": [
+            {"charge": "Annulet", "quantity": 3},
+            {"charge": "Fret"}
+        ], 
+        "notes": "Outputs the value 66 as a character, which is 'B'"
+    },
+    {
+        "statement": "Per bend sinister sable and gules; in chief a portcullis, in base a phoenix.",
+        "pseudocode": "Output '?', the character value of 63.",
+        "charges": [
+            {"charge": "Portcullis"},
+            {"charge": "Phoenix"}
+        ]
+    },
+    {
+        "statement": "Per chevron argent and or; in chief a bee.",
+        "pseudocode": "Read in a character and store its value to Variable98.",
+        "charges": [
+            {"charge": "Bee"}
+        ],
+        "state": "Variable98: 4",
+        "notes": "For the sake of this example, assume the user inputs the number 4."
+    },
+    {
+        "statement": "Per fess argent and argent; in chief an anchor, in base an anchor; in the center on an escutcheon sable three scallops.",
+        "pseudocode": "Multiply Variable97 by Variable97.",
+        "charges": [
+            {"charge": "Anchor"},
+            {"charge": "Scallop", "quantity": 3}
+        ],
+        "state": "Variable97: 9"
+    },
+    {
+        "statement": "Per pall azure, purpure, and sable; to dexter a bee, to sinister a crescent or.",
+        "pseudocode": "Raise Variable98 to the power of 2.",
+        "charges": [
+            {"charge": "Bee"},
+            {"charge": "Crescent"}
+        ],
+        "state": "Variable98: 16",
+        "notes": "Observe how statements 10 and 11 demonstrate two different ways to square a value."
+    },
+    {
+        "statement": "Per fess sable and or; in chief an anchor, in base a bee; in the center on an escutcheon argent three fusils sable.",
+        "pseudocode": "Add Variable98 to Variable97.",
+        "charges": [
+            {"charge": "Anchor"},
+            {"charge": "Bee"},
+            {"charge": "Fusil", "quantity": 3}
+        ],
+        "state": "Variable97: 25\nVariable98: 16"
+    },
+    {
+        "statement": "Per pall argent, sable, and sable; in chief an eagle, to dexter a label of two points argent, to sinister a fret argent.",
+        "pseudocode": "Add 1 to Variable1.",
+        "charges": [
+            {"charge": "Eagle"},
+            {"charge": "Label", "quantity": 2},
+            {"charge": "Fret"}
+        ],
+        "state": "Variable1: 67"
+    },
+    {
+        "statement": "Per bend vert and argent; in base a label of three points vert.",
+        "pseudocode": "Output Variable1 as a character.",
+        "charges": [
+            {"charge": "Label", "quantity": 3}
+        ], 
+        "notes": "Outputs the value 67 as a character, which is 'C'"
+    },
+    {
+        "statement": "Per pall or, gules, and sable; to dexter a fret or, to sinister a fleur-de-lis or.",
+        "pseudocode": "Subtract 6 from Variable1.",
+        "charges": [
+            {"charge": "Fret"},
+            {"charge": "Fleur-de-Lis"}
+        ],
+        "state": "Variable1: 61"
+    },
+    {
+        "statement": "Per bend azure and purpure; in chief three martlets argent, in base a fret argent.",
+        "pseudocode": "Output Variable1 as a character.",
+        "charges": [
+            {"charge": "Martlet", "quantity": 3},
+            {"charge": "Fret"}
+        ], 
+        "notes": "Outputs the value 61 as a character, which is '='"
+    },
+    {
+        "statement": "Per pall vert, purpure, and azure; in chief three fusils or, to dexter an anchor, to sinister a crescent or.",
+        "pseudocode": "Take the 2th root of Variable97.",
+        "charges": [
+            {"charge": "Fusil", "quantity": 3},
+            {"charge": "Anchor"},
+            {"charge": "Crescent"}
+        ],
+        "state": "Variable97: 5"
+    },
+    {
+        "statement": "Per bend argent and or; in chief two mascles sable, in base an anchor.",
+        "pseudocode": "Output Variable97 as a number.",
+        "charges": [
+            {"charge": "Mascle", "quantity": 2},
+            {"charge": "Anchor"}
+        ],
+        "notes": "Outputs the number 5."
+    }
+]
