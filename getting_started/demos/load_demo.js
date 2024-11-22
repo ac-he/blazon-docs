@@ -78,13 +78,123 @@ function getChargeEvaluationTable(charges) {
     return cet
 }
 
+function isMetal(tincture) {
+    if(tincture === "or" || tincture === "argent") return true;
+    return false;
+}
+
+function getCompOp(tincture) {
+    switch (tincture) {
+        case "argent":
+            return `<`;
+        case "or":
+            return `>`;
+        case "sable":
+            return `==`;
+        case "gules":
+            return `!=`;
+        case "purpure":
+            return `<=`;
+        case "azure":
+            return `>=`;
+        case "vert":
+            return `==`;
+    }
+}
+
+function getArithOp(tincture) {
+    switch (tincture) {
+        case "argent":
+            return `+`;
+        case "or":
+            return `-`;
+        case "sable":
+            return `*`;
+        case "gules":
+            return `/`;
+        case "purpure":
+            return `%`;
+        case "azure":
+            return `^`;
+        case "vert":
+            return `√`;
+    }
+}
+
+function getDivisionInfo(divisions) {
+    let divInfo = ""
+    switch(divisions?.div){
+        case "Per bend":
+            var detail = "character"
+            if(isMetal(divisions.tinctures[0])){
+                detail = "number"
+            }
+
+            divInfo = `<a href='/blazon-docs/logic/output#variable'>Per Bend</a>. 
+                        <br>Chief tincture <span class="italic">${divisions.tinctures[0]}</span> ➺ print variable as a ${detail}.`
+            break;
+        case "Per bend sinister":
+            var detail = "character"
+            if(isMetal(divisions.tinctures[0])){
+                detail = "number"
+            }
+
+            divInfo = `<a href='/blazon-docs/logic/output#value'>Per Bend Sinister</a>. 
+                        <br>Chief tincture <span class="italic">${divisions.tinctures[0]}</span> ➺ print variable as a ${detail}.`
+            break;
+        case "Per chevron":
+            var detail = "random number"
+            if(isMetal(divisions.tinctures[1])){
+                detail = "input from user"
+            }
+
+            divInfo = `<a href='/blazon-docs/logic/input'>Per Chevron</a>. 
+                        <br>Chief tincture <span class="italic">${divisions.tinctures[1]}</span> ➺ get ${detail}.`
+            break;
+        case "Per cross":
+            divInfo = `<a href='/blazon-docs/logic/branching#two-variables'>Quarterly</a>. 
+                        <br>Dexter chief tincture <span class="italic">${divisions.tinctures[0]}</span> ➺ branch with ${
+                            getCompOp(divisions.tinctures[0])} operator.`
+            break;
+        case "Per fess":
+            divInfo = `<a href='/blazon-docs/logic/variables#from-variable'>Per Fess</a>.`
+            break;
+        case "Per fess escutcheon":
+            divInfo = `<a href='/blazon-docs/logic/arithmetic#two-variables'>Per Fess Escutcheon</a>. 
+                        <br>Dexter chief tincture <span class="italic">${divisions.tinctures[2]}</span> ➺ use ${
+                            getArithOp(divisions.tinctures[2])} operator.`
+            break;
+        case "Per pale":
+            divInfo = `<a href='/blazon-docs/logic/variables#from-number'>Per Pale</a>.`
+            break;
+        case "Per pall":
+            divInfo = `<a href='/blazon-docs/logic/arithmetic#variable-and-number'>Per Pall</a>. 
+                        <br>Dexter chief tincture <span class="italic">${divisions.tinctures[0]}</span> ➺ use ${
+                            getArithOp(divisions.tinctures[0])} operator.`
+            break;
+        case "Per saltire":
+            divInfo = `<a href='/blazon-docs/logic/branching#variable-and-number'>Per Saltire</a>. 
+                        <br>Chief tincture <span class="italic">${divisions.tinctures[0]}</span> ➺ branch with ${
+                            getCompOp(divisions.tinctures[0])} operator.`
+            break;
+        case "None":
+            divInfo = `<a href='/blazon-docs/logic/branching#label'>[No division]</a>.`
+            break;
+    }
+    return `<div class="demo-division">${divInfo}</div>`
+}
+
 for(var i = 0; i < numRows; i++) {
     let s = statementJson[i]
     inner += `<div class="demo-row">
                 <div class="demo-column-index">${i + 1}</div>
                 <div class="demo-column-statement">${s.statement}</div>
                 <div class="demo-column-img"><img src="/blazon-docs/assets/example_programs/${table}/blazon_as_image-${i + 1}.png"></div>
-                <div class="demo-column-pseudocode">${s.pseudocode}${getChargeEvaluationTable(s.charges)}</div>
+                <div class="demo-column-pseudocode">
+                    ${s.pseudocode}
+                    ${getDivisionInfo(s.divisions)}
+                    ${getChargeEvaluationTable(s.charges)}
+                </div>
                 <div class="demo-column-state">${s.state === undefined ? "-" : s.state}</div>
                 <div class="demo-column-notes">${s.notes === undefined ? "-" : s.notes}</div>
             </div> `;

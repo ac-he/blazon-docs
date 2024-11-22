@@ -502,3 +502,23 @@ h1 a {
 strong {
     font-weight: bold;
 }
+
+.demo-division {
+    background-color: rgb(207, 187, 161);
+    padding: 5px;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left: 15px;
+    color:#614f42;
+}
+
+.demo-division a {
+    color:#614f42;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.demo-division span {
+    font-style: italic;
+}

@@ -2,6 +2,10 @@
     {
         "statement": "Per pale or and argent; to dexter a label of three points gules, to sinister two crosses moline gules.",
         "pseudocode": "Save the value 64 to Variable1.",
+        "divisions": {
+            "div": "Per pale",
+            "tinctures": ["or", "argent"]
+        },
         "charges": [
             {"charge": "Label", "quantity": 3},
             {"charge": "Cross Moline", "quantity": 2}
@@ -11,6 +15,10 @@
     {
         "statement": "Per pall argent, sable, and gules; in chief a castle, to dexter a label of one point argent, to sinister a label of one point argent.",
         "pseudocode": "Add 1 to Variable1.",
+        "divisions": {
+            "div": "Per pall",
+            "tinctures": ["argent", "sable", "gules"]
+        },
         "charges": [
             {"charge": "Castle"},
             {"charge": "Label"}
@@ -20,6 +28,10 @@
     {
         "statement": "Per bend sable and vert; in chief three thistles, in base a fret or.",
         "pseudocode": "Output Variable1 as a character.",
+        "divisions": {
+            "div": "Per bend",
+            "tinctures": ["sable", "vert"]
+        },
         "charges": [
             {"charge": "Thistle", "quantity": 3},
             {"charge": "Fret"}
@@ -29,6 +41,10 @@
     {
         "statement": "Per bend sinister gules and or; in base a phoenix.",
         "pseudocode": "Output '?', the character value of 63.",
+        "divisions": {
+            "div": "Per bend sinister",
+            "tinctures": ["gules", "or"]
+        },
         "charges": [
             {"charge": "Phoenix"}
         ]
@@ -36,6 +52,10 @@
     {
         "statement": "Per chevron sable and or; in chief an anchor, in base an anchor.",
         "pseudocode": "Read in a character and store its value to Variable97.",
+        "divisions": {
+            "div": "Per chevron",
+            "tinctures": ["sable", "or"]
+        },
         "charges": [
             {"charge": "Anchor"}
         ],
@@ -45,6 +65,10 @@
     {
         "statement": "Per pall argent, purpure, and or; in chief a sun in his splendor, to dexter a label of two points or, to sinister a label of two points purpure.",
         "pseudocode": "Add 1 to Variable1.",
+        "divisions": {
+            "div": "Per pall",
+            "tinctures": ["argent", "purpure", "or"]
+        },
         "charges": [
             {"charge": "Sun in his Splendor"},
             {"charge": "Label", "quantity": 2}
@@ -54,6 +78,10 @@
     {
         "statement": "Per bend vert and sable; in chief three annulets argent, in base a fret argent.",
         "pseudocode": "Output Variable1 as a character.",
+        "divisions": {
+            "div": "Per bend",
+            "tinctures": ["vert", "sable"]
+        },
         "charges": [
             {"charge": "Annulet", "quantity": 3},
             {"charge": "Fret"}
@@ -63,6 +91,10 @@
     {
         "statement": "Per bend sinister sable and gules; in chief a portcullis, in base a phoenix.",
         "pseudocode": "Output '?', the character value of 63.",
+        "divisions": {
+            "div": "Per bend",
+            "tinctures": ["sable", "gules"]
+        },
         "charges": [
             {"charge": "Portcullis"},
             {"charge": "Phoenix"}
@@ -71,6 +103,10 @@
     {
         "statement": "Per chevron argent and or; in chief a bee.",
         "pseudocode": "Read in a character and store its value to Variable98.",
+        "divisions": {
+            "div": "Per chevron",
+            "tinctures": ["argent", "or"]
+        },
         "charges": [
             {"charge": "Bee"}
         ],
@@ -80,6 +116,10 @@
     {
         "statement": "Per fess argent and argent; in chief an anchor, in base an anchor; in the center on an escutcheon sable three scallops.",
         "pseudocode": "Multiply Variable97 by Variable97.",
+        "divisions": {
+            "div": "Per fess escutcheon",
+            "tinctures": ["argent", "argent", "sable"]
+        },
         "charges": [
             {"charge": "Anchor"},
             {"charge": "Scallop", "quantity": 3}
@@ -89,6 +129,10 @@
     {
         "statement": "Per pall azure, purpure, and sable; to dexter a bee, to sinister a crescent or.",
         "pseudocode": "Raise Variable98 to the power of 2.",
+        "divisions": {
+            "div": "Per pall",
+            "tinctures": ["azure", "purpure", "sable"]
+        },
         "charges": [
             {"charge": "Bee"},
             {"charge": "Crescent"}
@@ -99,6 +143,10 @@
     {
         "statement": "Per fess sable and or; in chief an anchor, in base a bee; in the center on an escutcheon argent three fusils sable.",
         "pseudocode": "Add Variable98 to Variable97.",
+        "divisions": {
+            "div": "Per fess escutcheon",
+            "tinctures": ["sable", "or", "argent"]
+        },
         "charges": [
             {"charge": "Anchor"},
             {"charge": "Bee"},
@@ -109,6 +157,10 @@
     {
         "statement": "Per pall argent, sable, and sable; in chief an eagle, to dexter a label of two points argent, to sinister a fret argent.",
         "pseudocode": "Add 1 to Variable1.",
+        "divisions": {
+            "div": "Per pall",
+            "tinctures": ["argent", "sable", "sable"]
+        },
         "charges": [
             {"charge": "Eagle"},
             {"charge": "Label", "quantity": 2},
@@ -119,6 +171,10 @@
     {
         "statement": "Per bend vert and argent; in base a label of three points vert.",
         "pseudocode": "Output Variable1 as a character.",
+        "divisions": {
+            "div": "Per bend",
+            "tinctures": ["vert", "argent"]
+        },
         "charges": [
             {"charge": "Label", "quantity": 3}
         ], 
@@ -127,6 +183,10 @@
     {
         "statement": "Per pall or, gules, and sable; to dexter a fret or, to sinister a fleur-de-lis or.",
         "pseudocode": "Subtract 6 from Variable1.",
+        "divisions": {
+            "div": "Per pall",
+            "tinctures": ["or", "gules", "sable"]
+        },
         "charges": [
             {"charge": "Fret"},
             {"charge": "Fleur-de-Lis"}
@@ -136,6 +196,10 @@
     {
         "statement": "Per bend azure and purpure; in chief three martlets argent, in base a fret argent.",
         "pseudocode": "Output Variable1 as a character.",
+        "divisions": {
+            "div": "Per bend",
+            "tinctures": ["azure", "purpure"]
+        },
         "charges": [
             {"charge": "Martlet", "quantity": 3},
             {"charge": "Fret"}
@@ -145,6 +209,10 @@
     {
         "statement": "Per pall vert, purpure, and azure; in chief three fusils or, to dexter an anchor, to sinister a crescent or.",
         "pseudocode": "Take the 2th root of Variable97.",
+        "divisions": {
+            "div": "Per pall",
+            "tinctures": ["vert", "purpure", "azure"]
+        },
         "charges": [
             {"charge": "Fusil", "quantity": 3},
             {"charge": "Anchor"},
@@ -155,6 +223,10 @@
     {
         "statement": "Per bend argent and or; in chief two mascles sable, in base an anchor.",
         "pseudocode": "Output Variable97 as a number.",
+        "divisions": {
+            "div": "Per bend",
+            "tinctures": ["argent", "or"]
+        },
         "charges": [
             {"charge": "Mascle", "quantity": 2},
             {"charge": "Anchor"}

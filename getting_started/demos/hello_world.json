@@ -2,6 +2,10 @@
     {
         "statement": "Per pale purpure and or; to dexter a griffin, to sinister a griffin",
         "pseudocode": "Save the value 103 to Variable103.",
+        "divisions": {
+            "div": "Per pale",
+            "tinctures": ["purpure", "or"]
+        },
         "charges": [
             {"charge": "Griffin"}
         ],
@@ -11,6 +15,10 @@
     {
         "statement": "Per pall or, sable, and gules; to dexter a griffin, to sinister a lion passant.",
         "pseudocode": "Subtract 32 from Variable103.",
+        "divisions": {
+            "div": "Per pall",
+            "tinctures": ["or", "sable", "gules"]
+        },
         "charges": [
             {"charge": "Griffin"},
             {"charge": "Lion Passant"}
@@ -21,6 +29,10 @@
     {
         "statement": "Per bend gules and argent; in base a griffin.",
         "pseudocode": "Output Variable103 as a character.",
+        "divisions": {
+            "div": "Per bend",
+            "tinctures": ["gules", "argent"]
+        },
         "charges": [
             {"charge": "Griffin"}
         ],
@@ -29,6 +41,10 @@
     {
         "statement": "Per bend sinister sable and gules; in base an owl.",
         "pseudocode": "Output 'o', the character value of 111.",
+        "divisions": {
+            "div": "Per bend sinister",
+            "tinctures": ["sable", "gules"]
+        },
         "charges": [
             {"charge": "Owl"}
         ]
@@ -36,6 +52,10 @@
     {
         "statement": "Per bend sinister azure and argent; in chief an owl, in base an owl.",
         "pseudocode": "Output 'o', the character value of 100.",
+        "divisions": {
+            "div": "Per bend sinister",
+            "tinctures": ["azure", "argent"]
+        },
         "charges": [
             {"charge": "Owl"}
         ]
@@ -43,6 +63,10 @@
     {
         "statement": "Per bend sinister vert and azure; in base a dragon.",
         "pseudocode": "Output 'd', the character value of 100.",
+        "divisions": {
+            "div": "Per bend sinister",
+            "tinctures": ["vert", "azure"]
+        },
         "charges": [
             {"charge": "Dragon"}
         ]
@@ -50,6 +74,10 @@
     {
         "statement": "Per bend sinister gules and sable; in chief a cross moline or, in base a lion passant.",
         "pseudocode": "Output newline, the character value of 32.",
+        "divisions": {
+            "div": "Per bend sinister",
+            "tinctures": ["gules", "sable"]
+        },
         "charges": [
             {"charge": "Cross Moline"},
             {"charge": "Lion Passant"}
@@ -58,6 +86,10 @@
     {
         "statement": "Per bend sinister sable and argent; in chief a sun in his splendor, in base a moon in her plenitude.",
         "pseudocode": "Output 'm', the character value of 109.",
+        "divisions": {
+            "div": "Per bend sinister",
+            "tinctures": ["sable", "argent"]
+        },
         "charges": [
             {"charge": "Sun in his Splendor"},
             {"charge": "Moon in her Plenitude"}
@@ -66,6 +98,10 @@
     {
         "statement": "Per bend sinister purpure and sable; in chief a lamp, in base an owl.",
         "pseudocode": "Output 'o', the character value of 111.",
+        "divisions": {
+            "div": "Per bend sinister",
+            "tinctures": ["purpure", "sable"]
+        },
         "charges": [
             {"charge": "Lamp"},
             {"charge": "Owl"}
@@ -74,6 +110,10 @@
     {
         "statement": "Per bend sinister sable and argent; in base a raven.",
         "pseudocode": "Output 'r', the character value of 114.",
+        "divisions": {
+            "div": "Per bend sinister",
+            "tinctures": ["sable", "argent"]
+        },
         "charges": [
             {"charge": "Raven"}
         ]
@@ -81,6 +121,10 @@
     {
         "statement": "Per bend sinister gules and sable; in chief a crown, in base a raven.",
         "pseudocode": "Output 'r', the character value of 114.",
+        "divisions": {
+            "div": "Per bend sinister",
+            "tinctures": ["gules", "sable"]
+        },
         "charges": [
             {"charge": "Crown"},
             {"charge": "Raven"}
@@ -89,6 +133,10 @@
     {
         "statement": "Per bend sinister purpure and gules; in base an owl.",
         "pseudocode": "Output 'o', the character value of 111.",
+        "divisions": {
+            "div": "Per bend sinister",
+            "tinctures": ["purpure", "gules"]
+        },
         "charges": [
             {"charge": "Owl"}
         ]
@@ -96,6 +144,10 @@
     {
         "statement": "Per bend sinister sable and sable; in base a wolf.",
         "pseudocode": "Output 'w', the character value of 119.",
+        "divisions": {
+            "div": "Per bend sinister",
+            "tinctures": ["sable", "sable"]
+        },
         "charges": [
             {"charge": "Wolf"}
         ]
@@ -103,6 +155,10 @@
     {
         "statement": "Per pale vert and or; to dexter a thistle, to sinister two fleurs-de-lis vert.",
         "pseudocode": "Save the value 36 to Variable116.",
+        "divisions": {
+            "div": "Per pale",
+            "tinctures": ["vert", "or"]
+        },
         "charges": [
             {"charge": "Thistle"},
             {"charge": "Fleur-de-Lis", "quantity": 2}
@@ -113,6 +169,10 @@
     {
         "statement": "Per pall argent, or, and vert; in chief a crown, to dexter a thistle, to sinister a cross moline argent.",
         "pseudocode": "Add 8 to Variable116.",
+        "divisions": {
+            "div": "Per pall",
+            "tinctures": ["argent", "or", "vert"]
+        },
         "charges": [
             {"charge": "Crown"},
             {"charge": "Thistle"},
@@ -124,6 +184,10 @@
     {
         "statement": "Per bend vert and argent; in base a thistle.",
         "pseudocode": "Output Variable116 as a character.",
+        "divisions": {
+            "div": "Per bend",
+            "tinctures": ["vert", "argent"]
+        },
         "charges": [
             {"charge": "Thistle"}
         ],
@@ -132,6 +196,10 @@
     {
         "statement": "Per bend sinister gules and or; in chief a lion passant, in base a lion passant.",
         "pseudocode": "Output newline, the character value of 32.",
+        "divisions": {
+            "div": "Per bend sinister",
+            "tinctures": ["gules", "or"]
+        },
         "charges": [
             {"charge": "Lion Passant"}
         ]
@@ -139,6 +207,10 @@
     {
         "statement": "Per pale argent and vert; to dexter a gorge azure, to sinister a wolf.",
         "pseudocode": "Save the value 119 to Variable0.",
+        "divisions": {
+            "div": "Per pale",
+            "tinctures": ["argent", "vert"]
+        },
         "charges": [
             {"charge": "Gorge"},
             {"charge": "Wolf"}
@@ -149,6 +221,10 @@
     {
         "statement": "Per pall or, argent, and azure; in chief an anchor, to dexter a gorge azure, to sinister a lion passant.",
         "pseudocode": "Subtract 32 from Variable0.",
+        "divisions": {
+            "div": "Per pall",
+            "tinctures": ["or", "argent", "azure"]
+        },
         "charges": [
             {"charge": "Anchor"},
             {"charge": "Gorge"},
@@ -160,6 +236,10 @@
     {
         "statement": "Per bend azure and argent; in chief a ship, in base a gorge azure.",
         "pseudocode": "Output Variable0 as a character.",
+        "divisions": {
+            "div": "Per bend",
+            "tinctures": ["azure", "argent"]
+        },
         "charges": [
             {"charge": "Ship"},
             {"charge": "Gorge"}
@@ -169,6 +249,10 @@
     {
         "statement": "Per bend sinister sable and sable; in base an owl.",
         "pseudocode": "Output 'o', the character value of 111.",
+        "divisions": {
+            "div": "Per bend sinister",
+            "tinctures": ["sable", "sable"]
+        },
         "charges": [
             {"charge": "Owl"}
         ]
@@ -176,6 +260,10 @@
     {
         "statement": "Per bend sinister purpure and argent; in base a raven.",
         "pseudocode": "Output 'r', the character value of 114.",
+        "divisions": {
+            "div": "Per bend",
+            "tinctures": ["purpure", "argent"]
+        },
         "charges": [
             {"charge": "Raven"}
         ]
@@ -183,6 +271,10 @@
     {
         "statement": "Per bend sinister sable and gules; in chief a crown, in base two lions rampant.",
         "pseudocode": "Output 'l', the character value of 108.",
+        "divisions": {
+            "div": "Per bend sinister",
+            "tinctures": ["sable", "gules"]
+        },
         "charges": [
             {"charge": "Crown"},
             {"charge": "Lion Rampant"}
@@ -191,6 +283,10 @@
     {
         "statement": "Per bend sinister azure and argent; in chief three mullets argent, in base an eagle.",
         "pseudocode": "Output 'd', the character value of 100.",
+        "divisions": {
+            "div": "Per bend sinister",
+            "tinctures": ["azure", "argent"]
+        },
         "charges": [
             {"charge": "Mullet", "quantity": 3},
             {"charge": "Eagle"}
@@ -199,6 +295,10 @@
     {
         "statement": "Per bend sinister gules and argent; in chief a castle, in base a crown.",
         "pseudocode": "Output 'e', the character value of 101.",
+        "divisions": {
+            "div": "Per bend sinister",
+            "tinctures": ["gules", "argent"]
+        },
         "charges": [
             {"charge": "Castle"},
             {"charge": "Crown"}
@@ -207,6 +307,10 @@
     {
         "statement": "Per bend sinister gules and argent; in chief a castle, in base a crown.",
         "pseudocode": "Output '!', the character value of 33.",
+        "divisions": {
+            "div": "Per bend sinister",
+            "tinctures": ["gules", "argent"]
+        },
         "charges": [
             {"charge": "Castle"},
             {"charge": "Crown"}
