@@ -282,6 +282,10 @@ h1 a {
     width: 100%;
 }
 
+.dof-card h3 {
+    font-size: 20px;
+}
+
 #dof-menu a:link, a:visited{
     text-decoration: none;
     color:#161616;
