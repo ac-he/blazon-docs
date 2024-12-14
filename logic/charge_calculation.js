@@ -16,7 +16,7 @@ function getChargeValue(charge) {
     }
 }
 
-for(var i = 0; i < 6; i++){
+for(var i = 0; i < 9; i++){
     var oldelem = document.querySelector(`script#charge-evaluation-script-${i}`);
     
     if(oldelem == null){

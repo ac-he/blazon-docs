@@ -17,27 +17,39 @@
     <div id="page-content">
         <div class="blazon-info-card" id="call">
             <h3>Call Function</h3>
-            <p>[tincture1]; a saltire [tincture2] above a [charge1].</p>
-            or
+            <p>[tincture1]; a saltire [tincture2] below a [charge1].</p>
+            or, for plural charges,
             <p>[tincture1]; a saltire [tincture2] between two/three [charge1].</p>
+            or, for pattern or quarterly of eight charges, 
+            <p>[tincture1], [charge1]; a saltire [tincture2].</p>
             <h4>Example 1</h4>
             <div class="example">
-                <img src="/blazon-docs/assets/mocks/mock-saltire.png">
+                <img src="/blazon-docs/assets/functions/example1.png">
                     <div><script id="charge-evaluation-script-0" src="/blazon-docs/logic/charge_calculation.js" async type="module"
                         data-charge-0="Thistle" data-quantity-0="1">
                     </script>
-                    <p>Azure; a saltire argent above a thistle.</p>
+                    <p>Azure, a saltire argent below a thistle.</p>
                     <p style="font-style:normal">Call Function116.</p>
                 </div>
             </div>
             <h4>Example 2</h4>
             <div class="example">
-                <img src="/blazon-docs/assets/mocks/mock-saltire.png">
+                <img src="/blazon-docs/assets/functions/example2.png">
                     <div><script id="charge-evaluation-script-1" src="/blazon-docs/logic/charge_calculation.js" async type="module"
-                        data-charge-1="Raven" data-quantity-1="3">
+                        data-charge-0="Raven" data-quantity-0="3">
                     </script>
-                    <p>Or; a saltire sable between three ravens.</p>
+                    <p>Or, a saltire sable between three ravens.</p>
                     <p style="font-style:normal">Call Function1481544.</p>
+                </div>
+            </div>
+            <h4>Example 3</h4>
+            <div class="example">
+                <img src="/blazon-docs/assets/functions/example3.png">
+                    <div><script id="charge-evaluation-script-2" src="/blazon-docs/logic/charge_calculation.js" async type="module"
+                        data-charge-0="Chequy" data-quantity-0="1">
+                    </script>
+                    <p>Argent, chequy vert; a saltire sable.</p>
+                    <p style="font-style:normal">Call Function1000.</p>
                 </div>
             </div>
             <h4>Tincture 1</h4>
@@ -49,59 +61,83 @@
         </div>
         <div class="blazon-info-card" id="begin">
             <h3>Begin Function Definition</h3>
-            <p>[tincture1]; a bend [tincture2] below a [charge1].</p>
-            or
+            <p>[tincture1]; a bend [tincture2] above a [charge1].</p>
+            or, for plural charges,
             <p>[tincture1]; a bend [tincture2] between two/three [charge1].</p>
+            or, for pattern or quarterly of eight charges, 
+            <p>[tincture1], [charge1]; a bend [tincture2].</p>
             <h4>Example 1</h4>
             <div class="example">
-                <img src="/blazon-docs/assets/mocks/mock-bend.png">
-                    <div><script id="charge-evaluation-script-2" src="/blazon-docs/logic/charge_calculation.js" async type="module"
-                        data-charge-2="Unicorn" data-quantity-2="1">
+                <img src="/blazon-docs/assets/functions/example4.png">
+                    <div><script id="charge-evaluation-script-3" src="/blazon-docs/logic/charge_calculation.js" async type="module"
+                        data-charge-0="Unicorn" data-quantity-0="1">
                     </script>
-                    <p>Argent; a bend purpure below a unicorn.</p>
+                    <p>Argent, a bend purpure above a unicorn.</p>
                     <p style="font-style:normal">Begin Function117.</p>
                 </div>
             </div>
             <h4>Example 2</h4>
             <div class="example">
-                <img src="/blazon-docs/assets/mocks/mock-bend.png">
-                    <div><script id="charge-evaluation-script-3" src="/blazon-docs/logic/charge_calculation.js" async type="module"
-                        data-charge-3="Annulet" data-quantity-3="2">
+                <img src="/blazon-docs/assets/functions/example5.png">
+                    <div><script id="charge-evaluation-script-4" src="/blazon-docs/logic/charge_calculation.js" async type="module"
+                        data-charge-0="Annulet" data-quantity-0="2">
                     </script>
-                    <p>Vert; a bend argent between two annulets argent.</p>
+                    <p>Vert, a bend argent between two annulets argent.</p>
                     <p style="font-style:normal">Begin Function25.</p>
+                </div>
+            </div>
+            <h4>Example 3</h4>
+            <div class="example">
+                <img src="/blazon-docs/assets/functions/example6.png">
+                    <div><script id="charge-evaluation-script-5" src="/blazon-docs/logic/charge_calculation.js" async type="module"
+                        data-charge-0="Fusily" data-quantity-0="1">
+                    </script>
+                    <p>Purpure, fusily argent; a bend or.</p>
+                    <p style="font-style:normal">Begin Function1000.</p>
                 </div>
             </div>
             <h4>Tincture 1</h4>
             Has no impact on execution. Consider taking this opportunity to make an aesthetic decision.
             <h4>Charge 1</h4>
-            The integer-value of the function.
+            The integer-value of the function starting here.
             <h4>Tincture 2</h4>
             Has no impact on execution. Consider taking this opportunity to make an aesthetic decision.
         </div>
         <div class="blazon-info-card" id="end">
             <h3>Return from Function</h3>
-            <p>[tincture1]; a bend sinister [tincture2] below a [charge1].</p>
-            or
+            <p>[tincture1]; a bend sinister [tincture2] above a [charge1].</p>
+            or, for plural charges,
             <p>[tincture1]; a bend sinister [tincture2] between two/three [charge1].</p>
+            or, for pattern or quarterly of eight charges, 
+            <p>[tincture1], [charge1]; a bend sinister [tincture2].</p>
             <h4>Example 1</h4>
             <div class="example">
-                <img src="/blazon-docs/assets/mocks/mock-bend-sinister.png">
-                    <div><script id="charge-evaluation-script-4" src="/blazon-docs/logic/charge_calculation.js" async type="module"
-                        data-charge-4="Unicorn" data-quantity-4="1">
+                <img src="/blazon-docs/assets/functions/example7.png">
+                    <div><script id="charge-evaluation-script-6" src="/blazon-docs/logic/charge_calculation.js" async type="module"
+                        data-charge-0="Unicorn" data-quantity-0="1">
                     </script>
-                    <p>Argent; a bend sinister purpure below a unicorn.</p>
-                    <p style="font-style:normal">Begin Function117.</p>
+                    <p>Argent; a bend sinister purpure above a unicorn.</p>
+                    <p style="font-style:normal">Return from Function117.</p>
                 </div>
             </div>
             <h4>Example 2</h4>
             <div class="example">
-                <img src="/blazon-docs/assets/mocks/mock-bend-sinister.png">
-                    <div><script id="charge-evaluation-script-5" src="/blazon-docs/logic/charge_calculation.js" async type="module"
-                        data-charge-5="Annulet" data-quantity-5="2">
+                <img src="/blazon-docs/assets/functions/example8.png">
+                    <div><script id="charge-evaluation-script-7" src="/blazon-docs/logic/charge_calculation.js" async type="module"
+                        data-charge-0="Ship" data-quantity-0="3">
                     </script>
-                    <p>Vert; a bend sinister argent between two annulets argent.</p>
-                    <p style="font-style:normal">Begin Function25.</p>
+                    <p>Azure, a bend sinister or between three ships.</p>
+                    <p style="font-style:normal">Return from Function1520875.</p>
+                </div>
+            </div>
+            <h4>Example 3</h4>
+            <div class="example">
+                <img src="/blazon-docs/assets/functions/example9.png">
+                    <div><script id="charge-evaluation-script-8" src="/blazon-docs/logic/charge_calculation.js" async type="module"
+                        data-charge-0="Gyronny" data-quantity-0="1">
+                    </script>
+                    <p>Or, gyronny sable; a bend sinister gules.</p>
+                    <p style="font-style:normal">Return from Function-1.</p>
                 </div>
             </div>
             <h4>Tincture 1</h4>
