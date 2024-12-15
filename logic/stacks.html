@@ -17,27 +17,27 @@
     <div id="page-content">
         <div class="blazon-info-card" id="push-number">
             <h3>Push Number to Stack</h3>
-            <p>Per pale [tincture1] and [tincture2]; a pale [tincture3]; to dexter [charge1], to sinister [charge2].</p>
+            <p>Per pale [tincture1] and [tincture2]; to dexter [charge1], to sinister [charge2]; a pale [tincture3].</p>
             or
-            <p>Per pale [tincture1] and [tincture2]; upon a pale [tincture3] [charge3]; to dexter [charge1], to sinister [charge2].</p>
+            <p>Per pale [tincture1] and [tincture2]; to dexter [charge1], to sinister [charge2]; on a pale [tincture3] [charge3].</p>
             <h4>Example 1</h4>
             <div class="example">
-                <img src="/blazon-docs/assets/mocks/mock-per-pale-pale.png">
+                <img src="/blazon-docs/assets/stacks/example1.png">
                     <div><script id="charge-evaluation-script-0" src="/blazon-docs/logic/charge_calculation.js" async type="module"
                         data-charge-0="Lozengy" data-quantity-0="1" data-charge-1="Mascle" data-quantity-1="3">
                     </script>
-                    <p>Per pale sable and sable; a pale or; to dexter lozengy argent, to sinister three mascles argent.</p>
+                    <p>Per pale sable and sable; to dexter lozengy argent, to sinister three mascles argent; in the center a pale or.</p>
                     <p style="font-style:normal">Push 343 to Stack-1.</p>
                 </div> 
             </div>
             <h4>Example 2</h4>
             <div class="example">
-                <img src="/blazon-docs/assets/mocks/mock-per-pale-pale.png">
+                <img src="/blazon-docs/assets/stacks/example2.png">
                     <div><script id="charge-evaluation-script-1" src="/blazon-docs/logic/charge_calculation.js" async type="module"
                         data-charge-0="Billet" data-quantity-0="1" data-charge-1="Billet" data-quantity-1="2" data-charge-2="Billet" data-quantity-2="3">
                     </script>
-                    <p>Per pale gules and vert; upon a pale argent two billets gules; to dexter three billets argent, to sinister three billets argent.</p>
-                    <p style="font-style:normal">Push 2 to Stack8</p>
+                    <p>Per pale gules and vert; to dexter three billets argent, to sinister three billets argent; in the center on a pale argent two billets gules.</p>
+                    <p style="font-style:normal">Push 8 to Stack8</p>
                 </div>
             </div>
             <h4>Tincture 1</h4>
@@ -61,22 +61,22 @@
             <p>Per fess [tincture1] and [tincture2]; upon a fess [tincture3] [charge3]; in chief [charge1], in chief [charge2].</p>
             <h4>Example 1</h4>
             <div class="example">
-                <img src="/blazon-docs/assets/mocks/mock-per-fess-fess.png">
+                <img src="/blazon-docs/assets/stacks/example3.png">
                     <div><script id="charge-evaluation-script-2" src="/blazon-docs/logic/charge_calculation.js" async type="module"
                         data-charge-0="Gorge" data-quantity-0="1" data-charge-1="Anchor" data-quantity-1="2">
                     </script>
-                    <p>Per fess argent and or; a fess sable; in chief a gorge azure, in base two anchors.</p>
+                    <p>Per fess gules and or; in chief a gorge or, in base two anchors; in the center a fess sable.</p>
                     <p style="font-style:normal">Push Variable9409 to Stack0.</p>
                 </div> 
             </div>
             <h4>Example 2</h4>
             <div class="example">
-                <img src="/blazon-docs/assets/mocks/mock-per-fess-fess.png">
+                <img src="/blazon-docs/assets/stacks/example4.png">
                     <div><script id="charge-evaluation-script-3" src="/blazon-docs/logic/charge_calculation.js" async type="module"
                         data-charge-0="Castle" data-quantity-0="2" data-charge-1="Dragon" data-quantity-1="1" data-charge-2="Castle" data-quantity-2="1">
                     </script>
-                    <p>Per fess gules and gules; upon a fess argent a dragon; in chief two castles, in base one castle.</p>
-                    <p style="font-style:normal">Push Variable9801 to Stack99.</p>
+                    <p>Per fess gules and gules; in chief two castles, in base one castle; in the center on a fess argent a dragon.</p>
+                    <p style="font-style:normal">Push Variable99 to Stack9801.</p>
                 </div>
             </div>
             <h4>Tincture 1</h4>
@@ -100,24 +100,24 @@
             <p>Per chevron [tincture1] and [tincture2]; upon a chevron [tincture3] [charge3]; in chief [charge1], in chief [charge2].</p>
             <h4>Example 1</h4>
             <div class="example">
-                <img src="/blazon-docs/assets/mocks/mock-per-chevron-chevron.png">
+                <img src="/blazon-docs/assets/stacks/example5.png">
                     <div><script id="charge-evaluation-script-4" src="/blazon-docs/logic/charge_calculation.js" async type="module"
                         data-charge-0="Label" data-quantity-0="3" data-charge-1="Owl" data-quantity-1="1">
                     </script>
-                    <p>Per chevron purpure and sable; a chevron argent; in chief a label of three points argent, in base an owl.</p>
-                    <p style="font-style:normal">Pop the top of Stack111 and save the value to Variable1.</p>
+                    <p>Per chevron purpure and sable; in chief a label of three points or, in base an owl; in the center a chevron or.</p>
+                    <p style="font-style:normal">Peek from Stack111 and store it to Variable1.</p>
                 </div> 
             </div>
             <h4>Example 2</h4>
             <div class="example">
-                <img src="/blazon-docs/assets/mocks/mock-per-chevron-chevron.png">
+                <img src="/blazon-docs/assets/stacks/example6.png">
                     <div><script id="charge-evaluation-script-5" src="/blazon-docs/logic/charge_calculation.js" async type="module"
                         data-charge-0="Roundel" data-quantity-0="2" 
                         data-charge-1="Mascle" data-quantity-1="3" 
                         data-charge-2="Annulet" data-quantity-2="1">
                     </script>
-                    <p>Per chevron or and or; upon a chevron azure two roundels or; in chief three mascles azure, in base one annulet azure.</p>
-                    <p style="font-style:normal">Peek at the top of Stack5 and save the value to Variable343.</p>
+                    <p>Per chevron or and or; in chief three mascles azure, in base one annulet azure; in the center on a chevron azure two roundels or.</p>
+                    <p style="font-style:normal">Pop from Stack5 and store it to Variable343.</p>
                 </div>
             </div>
             <h4>Tincture 1</h4>
